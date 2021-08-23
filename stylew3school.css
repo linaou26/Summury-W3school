@@ -1,0 +1,90 @@
+﻿body
+{
+	background-color: ghostwhite;
+}
+h1
+{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+sup,sub
+{
+	color: red;
+}
+
+table
+{
+	border: 1px solid black;
+	margin-top:1%;
+    margin-left: 1%;
+	margin-right: 1%;
+	
+}
+td,th{
+	padding: 10px;
+	line-height: 25px;
+}
+th{
+	font-size: 25px;
+	font-weight: bolder;
+	border: 1px black solid;
+	padding-inline: 0px;
+}
+td{
+	border: 1px rgb(152, 214, 152) solid;
+}
+
+.lettre
+{
+	text-align: center;
+	background-color:rgb(231, 240, 236);
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	border: none;
+}
+caption
+{
+	font-size: 30px;
+}
+.elt1
+{
+	color: red;
+	text-align: center;
+	font-size: large;
+	font-weight: bolder;
+}
+.inline ,.blk
+{
+	font-size: large;
+	display: block;
+	font-weight: bolder;
+	background-color: greenyellow;
+}
+.role{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 25px;
+}
+header{
+
+	line-height: 40px;
+	background-color: rgb(152, 214, 152);
+	padding-top: 2px;
+}
+h1,.ht{
+	text-align: center;
+}
+.ht{
+	font-size:60px;
+	border: 2px rgb(152, 214, 152) solid;
+	background-color:rgb(231, 240, 236);
+	font-weight: bolder;
+}
+a{
+	color: forestgreen;
+	
+}
+
+
+

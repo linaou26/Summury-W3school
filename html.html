@@ -1,0 +1,1044 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="stylew3school.css">
+    
+</head>
+<header>
+    <h1 >
+        ملخص عناصر لغات البرمجة الخاصة بالويب <br>(HTML, CSS, JAVASCRIPT)</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="html.html" target="_blank"> HTML</a>
+            </li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <br>
+    <h2 class="ht">HTML</h2>
+    <br>
+    <section>
+        <h2>تصنيف العناصر حسب ترتيب الحروف اللاتينية:</h2>
+        <h3>
+            <a href="#a">a</a> -
+            <a href="#b">b</a> -
+            <a href="#c">c</a> -
+            <a href="#d">d</a> -
+            <a href="#e">e</a> -
+            <a href="#f">f</a> -
+            <a href="#g">g</a> -
+            <a href="#h">h</a> -
+            <a href="#i">i</a> -
+            <a href="#j">j</a> -
+            <a href="#k">k</a> -
+            <a href="#l">l</a> -
+            <a href="#m">m</a> -
+            <a href="#n">n</a> -
+            <a href="#o">o</a> -
+            <a href="#p">p</a> -
+            <a href="#q">q</a> -
+            <a href="#r">r</a> -
+            <a href="#s">s</a> -
+            <a href="#t">t</a> -
+            <a href="#u">u</a> -
+            <a href="#v">v</a> -
+            <a href="#w">w</a> -
+            <a href="#x">x</a> -
+            <a href="#y">y</a> -
+            <a href="#z">z</a>
+        </h3>
+        
+            <table >
+                <caption style="text-decoration:underline;">تصنيف العناصر حسب الوظيفة </caption>
+                <tr><td>
+            <pre style="font-size: 15px;" class="role"> 
+
+
+<a href="#meta">التحكم في إطار عرض الصفحة (viewport)</a>                
+<a href="#abbr">اختصار</a>
+<a href="#insertion">إدخال كلمة جديدة</a>
+<a href="#keyboard">إدخال مختصرات لوحة المفاتيح</a>
+<a href="#image">إدراج صورة</a>
+<a href="#strong">إظهار أهمية نص معين</a>
+<a href="#aside">إضافات</a>
+<a href="#image"> (width & max-width)استجابة الصورة حسب حجم الشاشة</a>
+<a href="#citation">اقتباس</a>
+<a href="#short-quotation">اقتباس قصير</a>
+<a href="#gard-form">المحافظة على شكل النص</a>
+<a href="#table">إنشاء جدول</a>
+<a href="#footer">تذييل الصفحة</a>
+<a href="#mark">تحديد كلمة</a>
+<a href="#saut de ligne">تخليف سطر</a>
+<a href="#delete">تشطيب كلمة</a>
+<a href="#style">تزيين الصفحة</a>
+<a href="#details">تفاصيل مخزنة تحت اختصار</a>
+<a href="#link">ربط الصفحة بملف CSS أو Javascript</a>
+<a href="#lien">روابط</a>
+<a href="#base">رابط قاعدي</a> 
+<a href="#ligne horizontale">سطر أفقي</a>
+<a href="#picture">عدة صور من أجل أحجام مختلفة لنافذة المتصفح</a>
+<a href="#span">عناصر ليست مبنية على المعنى من نوع إنلاين</a>  
+<a href="#div">عناصر ليست مبنية على المعنى من نوع بلوك</a>  
+<a href="#cite">عنوان إنتاج فني</a>
+<a href="#addr">عنوان بريدي</a>
+<a href="#summury">عنوان خاص بالعنصر details</a>
+<a href="#title">عنوان للصفحة (في نافذة المتصفح)</a>
+<a href="#paragraphe">فقرة</a>
+<a href="#section">قسم من الصفحة</a>
+<a href="#dl">قوائم شرحية</a>
+<a href="#ul">قوائم غير مرقمة</a>
+<a href="#ol">قوائم مرقمة</a>
+<a href="#titres">كتابة العناوين الرئيسية</a>
+<a href="#gras">كتابة بشكل غليظ</a>
+<a href="#italic">كتابة بشكل مائل</a>
+<a href="#bdo">كتابة عكسية</a>
+<a href="#exposant">كتابة على شكل أس</a>
+<a href="#indice">كتابة على شكل دلالة (indice)</a>
+<a href="#code">كتابة كود</a>
+<a href="#samp">كتابة مخاريج بسيطة لبرنامج</a>
+<a href="#small">كتابة نص بشكل أصغر</a>
+<a href="#script">كتابة Javascript مباشرة في ملف HTML </a>
+<a href="#meta">معطيات خاصة بمحركات البحث ومتصفح الأنترنت</a>
+<a href="#iframe">نافذة وسط الصفحة</a>
+</td>
+</tr>
+</table>
+
+        <!--<div style="margin-left:780px;">
+            <h3 dir="ltr">
+                &nbsp;HTML Attributes
+                <br>&nbsp;HTML Headings
+                <br>&nbsp;HTML Paragraphs
+                <br>&nbsp;HTML Styles
+                <br>&nbsp;HTML Formatting
+                <br>&nbsp;HTML Quotations
+                <br>&nbsp;HTML Comments
+                <br>&nbsp;HTML Colors
+                <br>&nbsp;HTML CSS
+                <br>&nbsp;HTML Links
+                <br>&nbsp;HTML Images
+                <br>&nbsp;HTML Tables
+                <br>&nbsp;HTML Lists
+                <br>&nbsp;HTML Block & Inline
+                <br>&nbsp;HTML Classes
+                <br>&nbsp;HTML Id
+                <br>&nbsp;HTML Iframes
+                <br>&nbsp;HTML JavaScript
+                <br>&nbsp;HTML File Paths
+                <br>&nbsp;HTML Head
+                <br>&nbsp;HTML Layout
+                <br>&nbsp;HTML Responsive
+                <br>&nbsp;HTML Computercode
+                <br>&nbsp;HTML Semantics
+                <br>&nbsp;HTML Style Guide
+                <br>&nbsp;HTML Entities
+                <br>&nbsp;HTML Symbols
+                <br>&nbsp;HTML Emojis
+                <br>&nbsp;HTML Charset
+                <br>&nbsp;HTML URL Encode
+                <br>&nbsp;HTML Forms
+                <br>&nbsp;HTML Forms
+                <br>&nbsp;HTML Form Attributes
+                <br>&nbsp;HTML Form Elements
+                <br>&nbsp;HTML Input Types
+                <br>&nbsp;HTML Input Attributes
+                <br>&nbsp;HTML Input Form Attributes
+            </h3>
+        </div>-->
+    </section>
+    <aside>
+        <h3 style="text-decoration: underline;" >block-level element:</h3>
+      <div dir="ltr" class="blk"> 
+        &nbsp;&lt;address&gt;
+        &nbsp;&lt;article&gt;
+        &nbsp;&lt;aside&gt;
+        &nbsp;&lt;blockquote&gt;
+        &nbsp;&lt;canvas&gt;
+        &nbsp;&lt;dd&gt;
+        &nbsp;&lt;div&gt;
+        &nbsp;&lt;dl&gt;
+        &nbsp;&lt;dt&gt;
+        &nbsp;&lt;fieldset&gt;
+        &nbsp;&lt;figcaption&gt;
+        &nbsp;&lt;figure&gt;
+        &nbsp;&lt;footer&gt;
+        &nbsp;&lt;form&gt;
+        &nbsp;&lt;h1&gt;
+        &nbsp;&lt;h6&gt;
+        &nbsp;&lt;header&gt;
+        &nbsp;&lt;hr&gt;
+        &nbsp;&lt;li&gt;
+        &nbsp;&lt;main&gt;
+        &nbsp;&lt;nav&gt;
+        &nbsp;&lt;noscript&gt;
+        &nbsp;&lt;ol&gt;
+        &nbsp;&lt;p&gt;
+        &nbsp;&lt;pre&gt;
+        &nbsp;&lt;section&gt;
+        &nbsp;&lt;table&gt;
+        &nbsp;&lt;tfoot&gt;
+        &nbsp;&lt;ul&gt;
+        &nbsp;&lt;video&gt;
+    </div>
+    <h3 style="text-decoration: underline;">Inline elements:</h3>
+    <div dir="ltr" class="inline"> 
+    &nbsp;&lt;a&gt;
+    &nbsp;&lt;abbr&gt;
+    &nbsp;&lt;b&gt;
+    &nbsp;&lt;bdo&gt;
+    &nbsp;&lt;br&gt;
+    &nbsp;&lt;button&gt;
+    &nbsp;&lt;cite&gt;
+    &nbsp;&lt;code&gt;
+    &nbsp;&lt;dfn&gt;
+    &nbsp;&lt;em&gt;
+    &nbsp;&lt;i&gt;
+    &nbsp;&lt;img&gt;
+    &nbsp;&lt;input&gt;
+    &nbsp;&lt;kbd&gt;
+    &nbsp;&lt;label&gt;
+    &nbsp;&lt;map&gt;
+    &nbsp;&lt;object&gt;
+    &nbsp;&lt;output&gt;
+    &nbsp;&lt;q&gt;
+    &nbsp;&lt;samp&gt;
+    &nbsp;&lt;script&gt;
+    &nbsp;&lt;select&gt;
+    &nbsp;&lt;small&gt;
+    &nbsp;&lt;span&gt;
+    &nbsp;&lt;strong&gt;
+    &nbsp;&lt;sub&gt;
+    &nbsp;&lt;sup&gt;
+    &nbsp;&lt;textarea&gt;
+    &nbsp;&lt;time&gt;
+    &nbsp;&lt;tt&gt;
+    &nbsp;&lt;var&gt;
+    </div>
+    </aside><br>
+    <section>
+<hr><br>
+        <table dir="ltr">
+            <caption>جدول العناصر حسب الحروف</caption>
+            <tr>
+                <th>Elements Html</th>
+                <th>Attribut/Description</th>
+                <th>Syntaxe</th>
+            </tr>
+           
+            <tr>
+                
+                <td colspan="3" id="a" class="lettre">A</td>
+            
+            </tr>
+            <tr id="lien">
+                <td class="elt1">
+                   <b>&lt;a&gt;</b> 
+                </td>
+                <td>
+                    <br><b>href</b>="mailto:@mail";
+                    <br><b>href</b>="#id";
+                    <br><b>href</b>="page-html";
+                    <br><b>href</b>="url";
+                    <br><b>target</b>=_self;
+                    <br><b>target</b>=_blank;
+                    <br><b>target</b>=_parent;
+                    <br><b>target</b>=_top;
+                    <br><b>target</b>=_iframe-name;
+                </td>
+                <td>
+                    &lt;a href="https://www.safia-wel.com/" target="_blank"&gt;Visit My Site &lt;/a&gt;
+                </td>
+            </tr>
+            <tr id="abbr">
+                <td class="elt1">
+                   <b>&lt;abbr&gt;</b> 
+                </td>
+                <td>
+                    title:donne des informations précieuses au moteurs de recherche
+                </td>
+                <td>
+                    <p>The  &lt;abbr title="World Health Organization"&gt;WHO &lt;/abbr&gt; was founded in 1948.</p>
+                </td>
+            </tr>
+            <tr id="addr">
+                <td class="elt1">
+                                        <b>&lt;address&gt;</b>
+                </td>
+                <td>
+                    pour montrer que c'est une adresse,renvoi une écriture en italique
+                </td>
+                <td>
+                    &lt;address&gt;
+                    <address>
+                        
+                        Written by John Doe.<br>
+                        Visit us at:<br>
+                        Example.com<br>
+                        Box 564, Disneyland<br>
+                        USA
+                       
+                        </address>
+                        &lt;/address&gt;
+                </td>
+            </tr>  
+            <tr id="aside">
+                <td class="elt1">
+                    <b>&lt;aside&gt;</b>  
+                </td>
+                <td>
+                    Defines content aside from the content (like a sidebar)
+                </td>
+                <td>
+                    &lt;aside&gt;
+                    Defines content aside from the content (like a sidebar)
+                        &lt;/aside&gt;
+                </td>
+            </tr>       
+            <tr>
+                <td colspan="3" id="b"class="lettre">B</td>
+            </tr>
+        </tr>
+        <tr id="base">
+            <td class="elt1">
+               <b>&lt;base&gt;</b> 
+            </td>
+            <td>
+                href<br>
+                رابط قاعدي لكل روابط الصفحة أي روابط الصفحة تضاف لنهاية هذا الرابط ثم تفتح
+            </td>
+            <td>
+                &lt;base href="https://www.w3schools.com/" target="_blank"&gt;
+            </td>
+        </tr>
+            <tr id="gras">
+                <td class="elt1">
+                 <b>&lt;b&gt;</b>   
+                </td>
+                <td>
+                    mettre en gras
+                </td>
+                <td>
+                    .&lt;b&gt;<b>this text is bold</b>&lt;/b&gt;
+                </td>
+            </tr>
+            <tr id="bdo">
+                <td class="elt1">
+                   <b>&lt;bdo&gt;</b> 
+                </td>
+                <td>
+                    attrib=dir<br>
+                    تكتب الحروف بعكس الإتجاه المكتوبة به
+                </td>
+                <td>
+                    &lt;bdo dir="rtl"&gt;This text will be written from right to left&lt;/bdo&gt;
+                    <br>
+                    Résultat:
+                    <bdo dir="rtl">This text will be written from right to left</bdo>
+                </td>
+            </tr>
+            <tr id="citation">
+                <td class="elt1">
+                   <b>&lt;blockquote&gt;</b> 
+                </td>
+                <td>
+                    Attrb: cite  <br> اقتباس من مصدر آخر
+                 </td>
+                <td>
+                    &lt;blockquote&gt; cite="http://www.worldwildlife.org/who/index.html">
+                        For 50 years, WWF has been protecting the future of nature.
+                        The world's leading conservation organization,
+                        WWF works in 100 countries and is supported by
+                        1.2 million members in the United States and
+                        close to 5 million globally.
+                        &lt;/blockquote&gt;
+                </td>
+            </tr>
+            <tr id="saut de ligne">
+                <td class="elt1">
+                   <b>&lt;br&gt;</b> 
+                </td>
+                <td>
+                    saut de ligne
+                </td>
+                <td>
+                    ...&lt;br&gt;...
+                </td>
+            </tr>
+           
+            <tr>
+                <td colspan="3" id="c"class="lettre">C</td>
+            </tr>
+            <tr id="titre">
+                <td class="elt1">
+                  <b>&lt;cite&gt;</b>  
+                </td>
+                <td>
+                    يحدد عنوان إخراج فني مثل كتاب مسرحية ...
+                </td>
+                <td>
+                    &lt;cite&gt;
+                    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+                    &lt;/cite&gt;
+                </td>
+            </tr>
+            <tr id="code">
+                <td class="elt1">
+                  <b>&lt;code&gt;&lt;/code&gt;</b>  
+                </td>
+                <td>
+                    <ul>
+                        <li>كتابة كود </li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                   &lt;code&gt;
+                    <li>x=5; y=8; z=x+y;</li>
+                    &lt;/code&gt;
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="d"class="lettre">D</td>
+            </tr>
+            <tr id="delete">
+                <td class="elt1">
+                   <b>&lt;del&gt;</b> 
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <p>My favorite color is &lt;del&gt;<del>blue</del>&lt;/del&gt; red.</p>
+                </td>
+            </tr>
+            <tr id="details">
+                <td class="elt1">
+                   <b>&lt;details&gt;</b> 
+                </td>
+                <td>
+                    تفاصيل تكون مخزنة تحت عنوان لها وتفتح وتخبأ بواسطة سهم
+
+                    تستخدم دائما مع محدد العنوان summury<br>
+                </td>
+                <td>
+                    &lt;details&gt;<br>
+                        &lt;summary&gt;Epcot Center &lt;/summary&gt;
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                        &lt;/details&gt;
+                      <br>
+                      <b>Résultat:</b>
+                      <details>
+                        <summary>Epcot Center</summary>
+                        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                      </details>
+                </td>
+            </tr>
+            <tr id="div">
+                <td class="elt1">
+                  <b>&lt;div&gt;</b>  
+                </td>
+                <td>
+                    Balise universelle de type block.
+                </td>
+                <td>
+                    &lt;div&gt;Hello World&lt;/div&gt;
+                </td>
+            </tr>
+            <tr id="dl">
+                <td class="elt1">
+                  &lt;dl&gt;</b> </td>
+            <td>
+                sous-elements: &lt;dt&gt;&lt;/dt&gt; pour le terme à décrir
+                <br>&lt;dd&gt;&lt;/dd&gt; pour la description
+            </td>
+                <td>
+                    &lt;dl&gt;
+                        <br>&lt;dt&gt;Coffee&lt;/dt&gt;
+                        <br>&lt;dd&gt;- black hot drink&lt;/dd&gt;
+                        
+                        <br>&lt;/dl&gt;
+                       <b><br>Résultat:</b> 
+                        <dl>
+                            <dt>Coffee</dt>
+                            <dd>- black hot drink</dd>
+                            </dl>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="e"class="lettre">E</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="f"class="lettre">F</td>
+            </tr>
+            <tr id="form">
+                <td class="elt1">
+                  &lt;form&gt;&lt;/form&gt;
+                </td>
+                <td>
+                    <ul><li>Définir un formulaire</li></ul>              
+                 </td>
+                <td>
+                    &lt;form&gt;
+                    
+                    <br>  &lt;/form&gt;
+                </td>
+            </tr>
+            <tr id="footer">
+                <td class="elt1">
+                   <b>&lt;footer&gt;</b> <br> <b>&lt;/footer&gt;</b> 
+                </td>
+                <td>
+                    pieds de page comme le copyright,auteur du site,..               
+                 </td>
+                <td>
+                    &lt;footer&gt;
+                    
+                    <br>  &lt;/footer&gt;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="g"class="lettre">G</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="h"class="lettre">H</td>
+            </tr>
+            <tr id="titres">
+                <td class="elt1">
+               <b> &lt;h1&gt;- &lt;h2&gt;- &lt;h3&gt;- &lt;h4&gt;- &lt;h5&gt;- &lt;h6&gt;</b>
+            </td>
+            <td>
+                تحديد العناوين حسب الأهمية
+            </td>
+            <td>
+                <h1>&lt;h1&gt;Titre du premeier niveau&lt;/h1&gt;</h1>
+                <h2>&lt;h2&gt;Titre du  deuxième niveau&lt;/h2&gt;...</h2>
+            </td>
+        </tr>
+        <tr id="head">
+            <td class="elt1">
+             <b>&lt;head&gt;</b>
+            </td>
+            <td>
+                entête du document
+         </td> 
+         <td>
+            <b> &lt;head&gt; 
+            </b><br>&lt;script&gt;
+            <br>&lt;style&gt; 
+            <br>&lt;meta&gt;
+            <br>&lt;link&gt;
+            <br><b>&lt;/head&gt;</b>
+         </td> 
+         </tr>
+         <tr id="header">
+            <td class="elt1">
+            <b> &lt;header&gt;</b>
+            </td>
+            <td>
+                entête de la page
+         </td> 
+         <td>
+            <b> &lt;header&gt; 
+            </b><br>&lt;nav&gt;
+            <br>&lt;/nav&gt; 
+            
+            <br><b>&lt;/header&gt;</b>
+         </td> 
+         </tr>
+            <tr id="ligne horizontale">
+                <td class="elt1">
+               <b> &lt;hr&gt;</b>
+               </td>
+               <td>
+                   رسم خط أفقي
+            </td> 
+            <td>
+               ... &lt;hr&gt;  ...
+            </td> 
+            </tr>
+            <tr>
+                <td colspan="3" id="i"class="lettre">I</td>
+            </tr>
+            <tr id="iframe">
+                <td class="elt1">
+                   <b>&lt;iframe&gt;</b> 
+                </td>
+                <td >
+                  <b> attribut:</b>height &width<br> ouvrir une autre page dans la page active
+                </td>
+                <td>
+                   <b> &lt;iframe</b> src="W3schooIndex.html"
+                     style="height:200px;width:300px;" title="Iframe Example"&gt;<b>&lt;/iframe&gt;</b>
+                   <br><b>Résultat:</b> <br>
+                 <iframe src="W3schooIndex.html"
+                     style="height:200px;width:300px;" title="Iframe Example"></iframe>
+                </td>
+            </tr>
+            <tr id="image">
+                <td class="elt1">
+                    <b>&lt;img&gt;</b>
+                </td>
+                <td >
+                   <ul>
+                       <li>
+                        src
+                       </li>
+                       <li>alt</li>
+                       <li>width</li>
+                       <li>height</li>
+                   </ul>
+                </td>
+                <td>
+                    <ul>
+                   <li> &lt;img src="adresse" &gt;</li>
+                   <li>  &lt;img src="img_girl.jpg" width="500" height="600" alt="titre remplaçant"&gt;</li>
+                   <li> Pour des raison d'adaptation à l'écran on utilise aussi:
+                       <br>width:100% ou max-width:100% <br>
+                       &lt;img src="img_girl.jpg" width="500" height="600" alt="titre remplaçant " <b>max-width:100% </b>&gt;</li>
+                </ul>
+                </td>
+            </tr>
+            <tr id="insertion">
+                <td class="elt1">
+                   <b>&lt;ins&gt;</b> 
+                </td>
+                <td >
+                    
+                </td>
+                <td>
+                    <p>My favorite color is <del>blue</del> &lt;ins&gt;<ins>red</ins>&lt;/ins&gt;.</p>
+
+                </td>
+            </tr>
+            <tr id="italic">
+                <td class="elt1">
+                   <b>&lt;i&gt;</b> 
+                </td>
+                <td >
+                    
+                </td>
+                <td>
+                    &lt;i&gt;<i>this text is italic </i>&lt;/i&gt;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="j"class="lettre">J</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="k"class="lettre">K</td>
+            </tr>
+            <tr id ="keyboard">
+                <td class="elt1">
+                   <b>&lt;kbd&gt;</b> 
+                </td>
+                <td>
+                   <ul>
+                       <li>لإدخال مختصرات لوحة المفاتيح</li>
+                   </ul>
+                </td>
+                <td>
+                    <ul>
+                    <li>&lt;kbd&gt;ctrl+c&lt;/kbd&gt;</li>
+                    <li><kbd>ctrl+c</kbd></li>
+                    </ul>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="l"class="lettre">L</td>
+            </tr>
+            <tr id ="link">
+                <td class="elt1">
+                   <b>&lt;link&gt;</b> 
+                </td>
+                <td>
+                    rel - href
+                    <br>  ربط الصفحة بملف cssأو Javascript
+                </td>
+                <td>
+                    &lt;link rel="stylesheet" href="mystyle.css"&gt;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="m"class="lettre">M</td>
+            </tr>
+            <tr id ="mark">
+                <td class="elt1">
+                   <b>&lt;mark&gt;</b> 
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <p>Do not forget to buy  &lt;mark&gt;<mark>milk</mark> &lt;/mark&gt; today.</p>
+                </td>
+            </tr>
+            <tr id ="meta">
+                <td class="elt1">
+                   <b>&lt;meta&gt;</b> 
+                </td>
+                <td>
+                    name -content-charset-
+                </td>
+                <td>
+                    <ul>
+                    <li>&lt;meta charset="UTF-8"&gt;</li>
+                    <li>&lt;meta name="description" content="Free Web tutorials"&gt;</li>
+                    <li>&lt;meta name="keywords" content="HTML, CSS, JavaScript"&gt;</li>
+                    <li>&lt;meta name="author" content="John Doe"&gt;</li>
+                    <li>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="n"class="lettre">N</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="o"class="lettre">O</td>
+            </tr>
+            <tr id="ol">
+                <td class="elt1">
+                    <b>&lt;ol&gt;</b>
+                
+                </td>
+            <td>
+                sous-elements: &lt;li&gt;&lt;/li&gt; pour chaque element de la liste
+                <br>Attribut:type=1/A/a/I/i;
+                <br>start:50-->pour débuter la numérotation à partir de 50
+            </td>
+                <td>
+                    &lt;ul&gt;
+                        <br>&lt;li&gt;Coffee&lt;/li&gt;
+                        <br>&lt;li&gt;Tea&lt;/li&gt;
+                        <br>&lt;li&gt;Milk&lt;/li&gt;
+                        <br>&lt;/ol&gt;
+                        Résultat:
+                        <ol>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                          </ol>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="p"class="lettre">P</td>
+            </tr>
+            <tr id="paragraphe">
+                <td class="elt1">
+                <b>&lt;p&gt;</b>
+            </td>
+            <td>
+                لكتابة الفقرات
+            </td>
+            <td>
+                &lt;p&gt;This is a paragraph. &lt;/p&gt;
+            </td>
+        </tr>
+        <tr id="gard-form">
+            <td class="elt1">
+               <b>&lt;pre&gt;</b> 
+            </td>
+            <td>garde la mise en forme du 
+                poeme ou des formules mathématiques</td>
+                <td>
+                    &lt;pre&gt;
+                    <pre>
+ My Bonnie lies over the ocean.
+       
+ My Bonnie lies over the sea.
+       
+ My Bonnie lies over the ocean.
+       
+ Oh, bring back my Bonnie to me.
+                    </pre>
+                  &lt;pre&gt;
+                </td>
+        </tr>
+        <tr id="picture">
+            <td class="elt1">
+            <b>&lt;picture&gt;</b>
+        </td>
+        <td>
+            <ul>
+                <li> 
+                   Sous balise:&lt;source&gt;</li> 
+                   <ul>
+                   <li>srcset="img_smallflower.jpg"</li>
+                    <li> media="(max-width: 600px)"</li>
+                    <li>img:Dernier choix</li>
+                </li>
+                    </ul>
+                    وظيفتها تحديد صور مختلفة حسب الأحجام التي تأخذها نافذة المتصفح <br>
+                    تظهر في كل مرة صورة مختلفة حسب حجم نافذة المتصفح
+            </ul>
+        </td>
+        <td>
+            &lt;picture&gt;
+            <ul>
+               <li> &lt;source srcset="img_smallflower.jpg" media="(max-width: 600px)"&gt;</li>
+               <li> &lt;source srcset="img_flowers.jpg" media="(max-width: 1500px)"&gt;</li>
+               <li> &lt;source srcset="flowers.jpg"&gt;</li>
+               <li> &lt;img src="img_smallflower.jpg" alt="Flowers"&gt;</li>
+            </ul>
+                &lt;/picture&gt;
+        </td>
+    </tr>
+            <tr>
+                <td colspan="3" id="q"class="lettre">Q</td>
+            </tr>
+                <tr id="short-quotation">
+                    <td class="elt1">
+                        <b>&lt;q&gt;</b>
+                    </td>
+                    <td>
+                        اقتباس قصير
+                    </td>
+                    <td>
+                        &lt;q&gt;<p>WWF's goal is to: &lt;q&gt;Build a future where people live in harmony with nature.</q>&lt;/q&gt;</p>
+                    </td>
+                </tr>
+            <tr>
+                <td colspan="3" id="r"class="lettre">R</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" id="s"class="lettre">S</td>
+            </tr>
+            <tr id="samp">
+                <td class="elt1">
+                    <b>&lt;samp&gt;&lt;/samp&gt;</b>
+                </td>
+            <td>
+                <ul>
+                    <li>لكتابة مخرجات  بسيطة لتنفيذ برنامج</li>
+                </ul>
+            </td>
+                <td>
+                    <ul>
+                         <li>&lt;samp&gt;Hello world&lt;/samp&gt;</li>  
+                    <li>Résultat: <samp>Hellow world</samp></li>
+                    </ul>
+
+
+                </td>
+            <tr id="script">
+                <td class="elt1">
+                    <b>&lt;script&gt;&lt;/script&gt;</b>
+                </td>
+            <td>
+                كتابة JavaScript مباشرة في ملف HTML
+            </td>
+                <td>
+                    &lt;head&gt;
+                   <br> &lt;script&gt;
+                       <br>function myFunction() {
+                         <br> document.getElementById("demo").innerHTML = "Hello JavaScript!";
+                       <br> }
+                       <br> &lt;script&gt;
+                     <br>  &lt;/head&gt;
+                </td>
+            </tr>
+            <tr id="section">
+                <td class="elt1">
+                   <b>&lt;section&gt;&lt;/section&gt;</b> 
+                </td>
+            <td>
+                
+            </td>
+                <td>
+                   
+                   <br>&lt;section&gt;
+                     On écrit ici une partie d'une page qui peut contenir des header, paragraphes, 
+                     video,iframe,footer....
+                       <br> &lt;/section&gt;
+                     
+                </td>
+            </tr>
+            <tr id="small">
+                <td class="elt1">
+                   <b>&lt;small&gt;&lt;/small&gt;</b> 
+                </td>
+            <td></td>
+                <td>
+                    &lt;small&gt;<small>this is some smaller text</small>&lt;/small&gt;
+                </td>
+            </tr>
+        </tr>
+        <tr id="span">
+            <td class="elt1">
+               <b>&lt;span&gt;&lt;/span&gt;</b> 
+            </td>
+        <td></td>
+            <td>
+                &lt;span&gt;<span>balise universelle de type block</span>&lt;/span&gt;
+            </td>
+        </tr>
+            <tr id="strong">
+                <td class="elt1">
+                    <b>&lt;strong&gt;&lt;/strong&gt;</b>
+                </td>
+            <td></td>
+                <td>
+                    &lt;strong&gt;<strong>this text is important</strong>&lt;/strong&gt;
+                </td>
+            </tr>
+
+            <tr id="style">
+                <td class="elt1">
+                    
+                   <b>&lt;style&gt;</b> 
+                   <b>&lt;/style&gt;</b>
+                   
+                   
+               
+                </td>
+                <td>
+                  <b><i>Balise et attribut <br>
+                  </i></b>  
+                </td>
+                <td>
+                    &lt;h1 style="font-family:verdana;"&gt;<h1 style="font-family:verdana;">This is a heading </h1>
+                    &lt;/h1&gt;
+                    &lt;p style="font-size:130%;"&gt; <p style="font-size:130%;">This is a paragraph. </p>  &lt;/p&gt;
+                    <br><b> &lt;style&gt;</b>
+                       <br> body {
+                            <br>background-color: powderblue;
+                       <br> }
+                       <br> h1 {color: red;}
+                       <br> p {color: blue;}
+                       <br><b> &lt;/style&gt;</b>
+                    <br>  <b> Responsive:</b><br>
+                    &lt;h1 style="font-size:5vw"&gt;Hello World&lt;/h1&gt;
+                   <br> <b> Resultat:modifier la taille de la fenêtre</b><br><h1 style="font-size:5vw">Hello World</h1>
+                </td>
+            </tr>
+        </tr>
+        <tr id="exposant">
+            <td class="elt1">
+               <b>&lt;sub&gt;&lt;/sub&gt;</b> 
+            </td>
+        <td></td>
+            <td>
+                <p>This is &lt;sub&gt;<sub>subscripted</sub> &lt;/sub&gt;text.</p>
+            </td>
+        </tr>
+    </tr>
+    <tr id="indice">
+        <td class="elt1">
+            <b>&lt;sup&gt;</b>
+        </td>
+    <td></td>
+        <td>
+            <p>This is &lt;sub&gt;<sup>subscripted</sup> &lt;/sub&gt;text.</p>
+        </td>
+    </tr>
+            <tr>
+                <td colspan="3" id="t"class="lettre">T</td>
+            </tr>
+            <tr id="table">
+                <td class="elt1">
+                    <b>&lt;table&gt;</b>
+                </td>
+            <td>
+                sous-elements:tr,th,td
+                <br>style:table, th, td {
+                    border: 1px solid black;
+                  }
+            </td>
+                <td>
+                    &lt;table style="width:100%"&gt;
+                        <br>&lt;tr&gt;
+                        <br>&lt;th&gt;Name&lt;th&gt;
+                        <br>&lt;th colspan="2"&gt;Telephone&lt;/th&gt;
+                        <br>&lt;/tr&gt;
+                        <br>&lt;tr&gt;
+                        <br>&lt;td&gt;Ahmed&lt;td&gt;
+                        <br>&lt;td &gt;tel1&lt;/td&gt;
+                        <br>&lt;td &gt;T002223366&lt;/td&gt;
+                        <br>&lt;/tr&gt;
+                        <br>&lt;/table&gt;
+                </td>
+            </tr>
+            <tr id="title">
+                <td class="elt1">
+                    <b>&lt;title&gt;</b></td>
+            <td>
+                Define the title in the browser toolbar
+            </td>
+                <td>
+                    &lt;title&gt; <title>A Meaningful Page Title</title>&lt;/title&gt;
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="u"class="lettre">U</td>
+            </tr>
+            <tr id="ul">
+                <td class="elt1">
+                    <b>&lt;ul&gt;</b>
+                </td>
+            <td>
+                sous-elements: &lt;li&gt;&lt;/li&gt; pour chaque element de la liste
+            </td>
+                <td>
+                    &lt;ul&gt;
+                        <br>&lt;li&gt;Coffee&lt;/li&gt;
+                        <br>&lt;li&gt;Tea&lt;/li&gt;
+                        <br>&lt;li&gt;Milk&lt;/li&gt;
+                        <br>&lt;/ul&gt;
+                   <br> résultat:
+                        <ul>
+                            <li>Coffee</li>
+                            <li>Tea</li>
+                            <li>Milk</li>
+                          </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="v"class="lettre">V</td>
+            </tr>
+            <tr id="var">
+                <td class="elt1">
+                    <b>&lt;var&gt;&lt;/var&gt;</b></td>
+            <td>
+               لتحديد متغير في برنامج
+            </td>
+                <td>
+                    <ul>
+<li>                  soit la variable&lt;var&gt;b&lt;/var&gt;</li>
+<li>                   soit la variable <var> b</var></li>
+                </ul>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="w"class="lettre">W</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="x"class="lettre">X</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="y"class="lettre">Y</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="z"class="lettre">Z</td>
+            </tr>
+
+        </table>
+    </section>
+
+</body>
+
+</html>

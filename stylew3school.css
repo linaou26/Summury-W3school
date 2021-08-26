@@ -71,6 +71,7 @@ header{
 	line-height: 40px;
 	background-color: rgb(152, 214, 152);
 	padding-top: 2px;
+	margin: auto;
 }
 h1,.ht{
 	text-align: center;
@@ -80,10 +81,27 @@ h1,.ht{
 	border: 2px rgb(152, 214, 152) solid;
 	background-color:rgb(231, 240, 236);
 	font-weight: bolder;
+	margin: auto;
 }
 a{
 	color: forestgreen;
 	
+}
+summary {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bold;
+	color: green;
+}
+li{
+	line-height: 30px;
+}
+pre{
+	line-height: 19px;
+}
+dt{
+	font-size: 15px;
+	font-weight: bold;
 }
 
 

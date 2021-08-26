@@ -1,106 +1,412 @@
-    <!DOCTYPE html>
-    <html lang="fr"dir="ltr">
+        <!DOCTYPE html>
+        <html lang="fr"dir="ltr">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CSS</title>
-        <link rel="stylesheet" href="stylew3school.css">
-        
-    </head>
-    <body>
-        <header>
-            <h1 >
-                ملخص عناصر لغات البرمجة الخاصة بالويب <br>(HTML, CSS, JAVASCRIPT)</h1>
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="html.html" target="_blank"> HTML</a>
-                        </li>
-                        <li>CSS</li>
-                        <li>JAVASCRIPT</li>
-
-                    </ul>
-                </nav>
-            </header>
-            <section>
-
-                <details>
-                    <summary>Selector </summary>
-                    <ul>
-                        <li>#id</li>
-                        <li>.class</li>
-                        <li>element.class</li>
-                        <li>*</li>
-                        <li>element &nbsp; p 
-                        </li>
-                        <li>element,element,..  &nbsp; div ,p </li>
-                    </ul>
-
-                </details>
-                <details>
-                    <summary>How to</summary>
-                    <ul>
-                        <li><pre>External CSS
-    With an external style sheet, you can change the look of an entire website by changing just one file!
-
-    Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
-    </pre>
-     </li>
-                        <li><pre>Internal CSS
-    An internal style sheet may be used if one single HTML page has a unique style.
-
-    The internal style is defined inside the &lt;style&gt; element, inside the head section.</pre></li>
-                        <li><pre>Inline CSS
-    An inline style may be used to apply a unique style for a single element.
-
-    To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
-
-    </pre></li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>Comments</summary>
-                    <ul>
-                        /* ....... */ 
-                    </ul>
-                </details>
-                <details>
-                    <summary>Colors</summary>
-                    <ul>
-                        <li>color:rgb(255, 99, 71);</li>
-                            <li>color:#ff6347;</li>
-                            <li>color:hsl(9, 100%, 64%);</li>
-                            <li>color:tomato;</li>
-                            <li>color:rgba(255, 99, 71, 0.5);where a represent the opacity
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CSS</title>
+            <link rel="stylesheet" href="stylew3school.css">
+            
+        </head>
+        <body>
+            <header>
+                <h1 >
+                    ملخص عناصر لغات البرمجة الخاصة بالويب <br>(HTML, CSS, JAVASCRIPT)</h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="html.html" target="_blank"> HTML</a>
                             </li>
-                            <li>color:hsla(9, 100%, 64%, 0.5);where a represent the opacity</li>
+                            <li>CSS</li>
+                            <li>JAVASCRIPT</li>
 
-                    </ul>
-                </details>
-                <details>
-                    <summary>Background</summary>
-                    <ul>
-                        <li>background-color:lightblue;opacity:0,3;</li>
-                        <li>background-image: url("paper.gif");The background image can also be set for specific elements, like the &lt;p&gt; element:</li>
-                        <li> background-repeat: no-repeat;/no-repeat;/repeat-x;/repeat-y;</li>
-                        <li>background-position: right top;/left top ...</li>
-                        <li>background-attachment: scroll;/fixed;(se voit tout au long de défilement de la page)</li>
-                        <li><pre>When using the shorthand property the order of the property values is:
+                        </ul>
+                    </nav>
+                </header>
+                <H2 class="ht">CSS</H2><br>
+                <section>
 
-background-color
-background-image
-background-repeat
-background-attachment
-background-position</pre></li>
-                    </ul>
-                </details>
-                <details>
-                    <summary></summary>
-                    <ul>
-                        <li></li>
-                    </ul>
-                </details>
-            </section>
-        </body>
-        </html>
+                    <details>
+                        <summary>Selector </summary>
+                        <ul>
+                            <li><dt>#id</dt></li>
+                            <li><dt>.class</dt></li>
+                            <li><dt>element.class</dt></li>
+                            <li><dt>*</dt></li>
+                            <li><dt>element </dt>&nbsp; p 
+                            </li>
+                            <li><dt>element,element,..</dt>  &nbsp; div ,p </li>
+                        </ul>
+
+                    </details>
+                    <details>
+                        <summary>How to</summary>
+                        <ul>
+                            <li><pre>External CSS
+        With an external style sheet, you can change the look of an entire website by changing just one file!
+
+        Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+        </pre>
+         </li>
+                            <li><pre>Internal CSS
+        An internal style sheet may be used if one single HTML page has a unique style.
+
+        The internal style is defined inside the &lt;style&gt; element, inside the head section.</pre></li>
+                            <li><pre>Inline CSS
+        An inline style may be used to apply a unique style for a single element.
+
+        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+        </pre></li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Comments</summary>
+                        <ul>
+                            <li><dt>/* ....... */</dt> </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Colors</summary>
+                        <ul>
+                            <li>color: &nbsp; rgb(255, 99, 71);</li>
+                                <li>color: &nbsp; #ff6347;(#rrggbb: prend les valeur 00-->ff en héxadécimal équivalent de : 0-->255 en décimal))</li>
+                                <li>color: &nbsp; hsl(9, 100%, 64%);(hue,saturation,lightness)
+
+                                    <pre>
+    Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+    Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+
+    Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white</pre></li>
+                                <li>color:  &nbsp; tomato;</li>
+                                <li>color:  &nbsp; rgba(255, 99, 71, 0.5);where "a" represent the opacity
+                                </li>
+                                <li>color:  &nbsp; hsla(9, 100%, 64%, 0.5);where "a" represent the opacity</li>
+
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Background</summary>
+                        <ul>
+                            <li><dt>background-color: </dt> lightblue;</li>
+                            <li><dt>background-image:</dt> url("paper.gif");The background image can also be  set for specific elements, like the &lt;p&gt; element:</li>
+                            <li><dt>background-repeat:</dt> no-repeat;/no-repeat;/repeat-x;/repeat-y;</li>
+                            <li><dt>background-position:</dt> right top;/left top ...</li>
+                            <li><dt>background-attachment:</dt> scroll;/fixed;(se voit tout au long de défilement de la page)</li>
+                            
+
+<li><dt>background shorthand : </dt> <dd>background:&nbsp;background-color &nbsp;&nbsp; background-image&nbsp;&nbsp; background-repeat&nbsp;&nbsp; background-attachment &nbsp;&nbsp;background-position</dd> </li>
+<li><dt>opacity: </dt><dd>0,3 ;</dd></li>
+</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Border</summary>
+                        
+                            <ul>
+                                <li><dt>Border-style</dt></li>
+                                <dd>Valeurs possible: dotted, dashed, solid, double, grouve, ridge, inset, outset, none, hidden</dd>
+                            <li><dt>Border-width</dt></li>
+                            <dd>Valeurs possible:thin ,medium ,thick or specific size(px ,pm ,em ,cm) </dd>
+                            <li><dt>Border-color</dt></li>
+                            <dd></dd>
+                            <li><dt>Border-sides</dt> <dd>border-left &nbsp;&nbsp;border-right...</dd>
+                            
+                            <dd>4 values = Top &nbsp; Right  &nbsp; bottom &nbsp; left </dd>
+
+                            <dd>3 values = Top &nbsp; Right & left&nbsp; bottom </dd>
+
+                            <dd>2 values = Top & bottom &nbsp; Right & left</dd>
+                            <dd>1 value = all four borders</dd>
+                            </li>
+                            <li>
+                                <dt>Border shorthand</dt>
+                                <dd>border: &nbsp;width &nbsp;&nbsp; style(required) &nbsp;&nbsp; color; 
+                                </dd>
+                                <dd>ou  border-left(right/bottom/top): width &nbsp;&nbsp; style &nbsp;&nbsp;color </dd>
+                            </li>
+                            <li>
+                                <dt>border-radius</dt>
+                                <dd>For rounded border -->Ex- border-radius: 5px;</dd>
+                            </li>
+
+                            </ul>
+
+                        
+                    </details>
+                    <details>
+                        <summary>Margin</summary>
+                        <ul>
+                            <li>
+                                <dt>margin /margin-top /margin-right /margin-left ...</dt>
+                                <dd>valeur possible: auto (centré horizentalement) , length , % ,inherit</dd>
+                            </li>
+                           
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Padding</summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary></summary>
+                        <ul>
+                            <li>
+                                <dt></dt>
+                                <dd></dd>
+                            </li>
+                        </ul>
+                    </details>
+
+                </section>
+            </body>
+            </html>

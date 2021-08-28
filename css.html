@@ -24,6 +24,7 @@
                     </nav>
                 </header>
                 <H2 class="ht">CSS</H2><br>
+                <h3>CSS Tutorial</h3>
                 <section>
 
                     <details>
@@ -149,45 +150,93 @@
                         <summary>Padding</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>padding-top / padding-bottom / padding-left / padding-right /padding</dt>
+                                <dd>Defines space inside any defined border</dd>
+                                <dd>Valeur possible: length (px,cm,pt...), % ,inherit</dd>
+                               <li> <dt>box-sizing: border-box;</dt></li>
+                                <dd>garde la largeur de l'élément malgré l'ajout de padding</dd>
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Width/Height</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>width / height / max_width /max-height /min-width /min height</dt>
+                                <dd>Valeur posible: none /max-content /min-content /fit-content
+                                ..px em ch %</dd>
+                                
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Box Model</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt><img src="Images\box model.jpg" alt="box model" class="box-model"></dt> </li>
+                                <li>
+                                    The total width of an element should be calculated like this:
+
+Total element width = width + left padding + right padding + left border + right border + left margin + right margin 
+<pre>Exemple: 
+320px (width)
++ 20px (left + right padding)
++ 10px (left + right border)
++ 0px (left + right margin)
+= 350px</pre>
+                                </li>
+                           
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Outline</summary>
+                        <ul>
+                            <li>
+
+                                <dt>outline-style: </dt>
+                                <dd>dotted ,dashed ,solid ,double ,groove ,outset ,ridge ,inset ,outset ,none ,hiden</dd>
+                                <dd>Les autres propriétés "outline" n'ont pas d'effet que lorsque outline style est définie</dd>
+                               <li> <dt>outline-width: </dt>
+                                <dd>Valeur possible: <pre>
+thin (typically 1px)
+medium (typically 3px)
+thick (typically 5px)
+A specific size (in px, pt, cm, em, etc)</pre></dd>
+<dd>La largeur de l'outline n'affecte pas la largeur de l'élément</dd>
+                               <li> <dt>outline-color: </dt></li>
+                               <li> <dt>outline: (shorthand)</dt></li>
+                                <dd>width &nbsp;style(required)&nbsp; color ;</dd>
+                               <li> <dt>outline-offset: </dt></li>
+                                <dd>defines a space between an outline and the border/edge of an element . Ex: outline-offset: 15px;</dd>
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Text</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>color: </dt></li>
+                                <dd>color-name "red" - HEX-value #ff00aa - RGB-value (25,23,250) ...</dd>
+                                <li><dt>text-align: </dt></li>
+                                <dd>justify  right  left  center;</dd>
+                               <li> <dt>direction & unicode-bidi: </dt></li>
+                                <dd>direction: rtl(right to left) /ltr(left to right);
+                                    </dd>
+                                
+                                <dd>unicode-bidi: bidi-override;</dd>
+                               <li> <dt>vertical-align: </dt></li>
+                                <dd>baseline(default)  text-top  text-bottom  sub  super;</dd>
+                                <li><dt>text-decoration: </dt></li>
+                                <dd>texte decoration: none(is often used to remove decoration from link)  overline  line-through  underline;</dd>
+                            <li>
+                                <dt>text-transform: </dt>
                             </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
+                            <dd>text-transform: uppercase  (lowercase  , capitalize);</dd>
                             <li>
                                 <dt></dt>
-                                <dd></dd>
                             </li>
+                            <dd></dd>
+                           
                         </ul>
                     </details>
                     <details>

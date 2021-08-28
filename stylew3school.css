@@ -98,11 +98,20 @@ li{
 }
 pre{
 	line-height: 19px;
+	background-color: lightgreen;
+	max-width: max-content;
 }
 dt{
 	font-size: 15px;
 	font-weight: bold;
+	text-align: left;
+	
 }
+.box-model{
+	vertical-align: top;
+
+}
+
 
 
 

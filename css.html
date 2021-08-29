@@ -6,6 +6,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>CSS</title>
             <link rel="stylesheet" href="stylew3school.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon">
             
         </head>
         <body>
@@ -23,7 +24,7 @@
                         </ul>
                     </nav>
                 </header>
-                <H2 class="ht">CSS</H2><br>
+                <H2  class="font-effect-neon">CSS</H2><br>
                 <h3>CSS Tutorial</h3>
                 <section>
 
@@ -233,20 +234,71 @@ A specific size (in px, pt, cm, em, etc)</pre></dd>
                             </li>
                             <dd>text-transform: uppercase  (lowercase  , capitalize);</dd>
                             <li>
-                                <dt></dt>
+                                <dt>Text spacing</dt>
                             </li>
-                            <dd></dd>
+                            <dd>text-indent  letter-spacing  line-height  word-spacing  white-space</dd>
                            
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Fonts</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>font-family: </dt></li>
+                                <dd>font-family:"times new roman" ,times ,serif
+                            ;</dd>
+                            <dd> on nécrit le nom de police formé de +ieurs mots entre ""</dd>
+                            <dd>on doit écrire +ieurs police au déclaration</dd>
+                            <li>
+                                <dt><pre>
+Arial (sans-serif)
+Verdana (sans-serif)
+Helvetica (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)</pre></dt>
+<li>
+    <dt>Font-style</dt>
+</li>
+                                <dd>normal  italic  oblique</dd>
                             </li>
-                        </ul>
+<li>
+    <dt>font-weight: </dt>
+    <dd>normal bold ...</dd>
+</li>
+<li>
+    <dt>font-variant: </dt>
+    <dd>normal  small-caps</dd>
+</li>
+<li>
+    <dt>font-size: </dt>
+</li>
+<dd>1em =  valeure actuelle en px. par défaut (16px=1em)</dd>
+
+<li>
+    <dt>em</dt>
+</li>
+<dd>dans les anciens borowsers quand on utilise em un problème se produit lors du zoom ou de resize </dd>
+<dd>la solution est d'utiliser font-size of body à 100% puis utiliser "em" pour les autres éléments.</dd>
+<li>
+    <dt>vw</dt>
+</li>
+<dd>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</dd>
+                        
+
+<li>
+    <dt>Google font </dt>
+</li>
+<dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|sofia|trirong   (ou autre nom de fonte)"&gt; puis on la définie dans css</dd>
+<li>
+    <dt>Google effect</dt>
+</li>
+<dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|sofia|trirong   (ou autre nom de fonte)&fire|neon|.. (on cite un ou plusieurs effet puis on le déclare: element class="font-effect-nom-effect")"&gt</dd>
+</ul>
                     </details>
                     <details>
                         <summary></summary>

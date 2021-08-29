@@ -1,6 +1,7 @@
 ﻿body
 {
 	background-color: ghostwhite;
+	font-family: sofia , sans-serif;
 }
 h1
 {
@@ -73,15 +74,17 @@ header{
 	padding-top: 2px;
 	margin: auto;
 }
-h1,.ht{
+h1{
 	text-align: center;
+	
 }
-.ht{
+.ht,h2{
 	font-size:60px;
 	border: 2px rgb(152, 214, 152) solid;
 	background-color:rgb(231, 240, 236);
 	font-weight: bolder;
 	margin: auto;
+	text-align: center;
 }
 a{
 	color: forestgreen;
@@ -89,9 +92,10 @@ a{
 }
 summary {
 	font-size: 18px;
-	line-height: 25px;
+	line-height: 30px;
 	font-weight: bold;
 	color: green;
+	font-size: 2vw;
 }
 li{
 	line-height: 30px;
@@ -111,6 +115,7 @@ dt{
 	vertical-align: top;
 
 }
+
 
 
 

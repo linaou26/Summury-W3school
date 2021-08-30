@@ -1,7 +1,7 @@
 ﻿body
 {
 	background-color: ghostwhite;
-	font-family: sofia , sans-serif;
+	
 }
 h1
 {
@@ -69,13 +69,15 @@ caption
 }
 header{
 
-	line-height: 40px;
-	background-color: rgb(152, 214, 152);
-	padding-top: 2px;
-	margin: auto;
+	
+	background-color: white;
+	height: max-content;
+	border: 1px solid green;
 }
 h1{
 	text-align: center;
+	font-family: verdana;
+	color: green;
 	
 }
 .ht,h2{
@@ -86,9 +88,37 @@ h1{
 	margin: auto;
 	text-align: center;
 }
-a{
-	color: forestgreen;
+a.nav:link , a.nav:visited {
+	background-color: white;
 	
+	display: inline-block;
+	text-align: center;
+	padding: 10px 20px;
+	color: green;
+	text-decoration: none;
+	
+	
+}
+a.nav:hover ,a.nav:active{
+
+	background-color: green;
+	color: white;
+}
+a{
+	font-size: 20px;
+}
+nav{
+
+	heigh:max-content;
+
+}
+ul{
+	
+	margin: 0px;
+	padding: 0px;
+	}
+li{
+	display: inline-block;
 }
 summary {
 	font-size: 18px;
@@ -114,6 +144,11 @@ dt{
 .box-model{
 	vertical-align: top;
 
+}
+dd{
+
+	white-space: pre-line;
+	line-height: 25px;
 }
 
 

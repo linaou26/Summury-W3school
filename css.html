@@ -7,24 +7,26 @@
             <title>CSS</title>
             <link rel="stylesheet" href="stylew3school.css">
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon">
+            <script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"></script>
             
         </head>
         <body>
             <header>
                 <h1 >
-                    ملخص عناصر لغات البرمجة الخاصة بالويب <br>(HTML, CSS, JAVASCRIPT)</h1>
+                    W3S-Frontend</h1>
                     <nav>
-                        <ul>
+                        <ul class="nav" >
                             <li>
-                                <a href="html.html" target="_blank"> HTML</a>
+                            <a href="html.html" target="_blank" class="nav"> HTML</a>
                             </li>
-                            <li>CSS</li>
-                            <li>JAVASCRIPT</li>
+                            <li><a href="css.html" target="_blank" class="nav">CSS</a></li>
+                            <li><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></li>
 
                         </ul>
                     </nav>
                 </header>
-                <H2  class="font-effect-neon">CSS</H2><br>
+                <br>
+                <h2 class="ht" >CSS</h2><br>
                 <h3>CSS Tutorial</h3>
                 <section>
 
@@ -298,34 +300,107 @@ Brush Script MT (cursive)</pre></dt>
     <dt>Google effect</dt>
 </li>
 <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|sofia|trirong   (ou autre nom de fonte)&fire|neon|.. (on cite un ou plusieurs effet puis on le déclare: element class="font-effect-nom-effect")"&gt</dd>
+<li>
+    <dt>font pairings: </dt>
+</li>
+<dd>Exemple: Georgia(or heading) and Verdana(for text)
+    Helvitica and Garamond
+    Merriweather and Open Sans
+    Ubuntu and Lora
+    Abril Fatface  and Poppins
+    Cinzel and  Fauna One
+    Fjalla One and Libre Baskerville
+    Space Mono and Muli
+    Spectral and  Rubik
+    Oswald  and Noto Sans
+    </dd>
+    <li>
+        <dt>font (shorthand)</dt>
+    </li>
+    <dd>
+font-style
+font-variant
+font-weight
+font-size (required)
+line-height
+font-family (required)</dd>
 </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Icons</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt><a href="https://fontawesome.com" target="_blank">fontawesome.com</a></dt>
+                                <dd>Get the code after sying in the bellow site and enter this in the head section: &lt;script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"&gt;
+                                    Exemple : mon code est -->&lt;script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"&gt;&lt;/script&gt;</dd>
+
                             </li>
+                            <li>
+                                <dt>Utilisation: </dt>
+                            </li>
+                            <dd>Dans un élément html on ajoute une classe comme suit: ..class="fas fa<b>-</b>icon-name"</dd>
+                            <li>
+                                <dt>Bootstrap icon: </dt>
+                            </li>
+                            <dd>On ajoute ce code dans le head section: &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;</dd>
+                            <dd>Dans l'élément HTML: ... class="glyphicon glyphicon-cloud"</dd>
+                            <li>
+                                <dt>Google Icon: </dt>
+                            </li>
+                            <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</dd>
+                            <dd>&lt; i class="material-icons"&gt;cloud&lt;/i&gt;</dd>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Links</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>Rules: </dt>
+                                <dd>Cet ordre est important:  &nbsp;( a: link{ color background text-decoration ...} et  a:visited{} ) puis quand on veut ajouter : a:hover{}  a:active{}</dd>>
                             </li>
+                            <li>
+                                <dt>Different type of cursors(can be useful for links): </dt>
+                            </li>
+                            <dd><pre>
+&lt;span style="cursor: auto">auto&lt;/span><br>
+&lt;span style="cursor: crosshair">crosshair&lt;/span><br>
+&lt;span style="cursor: default">default&lt;/span><br>
+&lt;span style="cursor: e-resize">e-resize&lt;/span><br>
+&lt;span style="cursor: help">help&lt;/span><br>
+&lt;span style="cursor: move">move&lt;/span><br>
+&lt;span style="cursor: n-resize">n-resize&lt;/span><br>
+&lt;span style="cursor: ne-resize">ne-resize&lt;/span><br>
+&lt;span style="cursor: nw-resize">nw-resize&lt;/span><br>
+&lt;span style="cursor: pointer">pointer&lt;/span><br>
+&lt;span style="cursor: progress">progress&lt;/span><br>
+&lt;span style="cursor: s-resize">s-resize&lt;/span><br>
+&lt;span style="cursor: se-resize">se-resize&lt;/span><br>
+&lt;span style="cursor: sw-resize">sw-resize&lt;/span><br>
+&lt;span style="cursor: text">text&lt;/span><br>
+&lt;span style="cursor: w-resize">w-resize&lt;/span><br>
+&lt;span style="cursor: wait">wait&lt;/span></pre></dd> 
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Lists</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>list-style-type: </dt>
+                                <dd>ul {list-style-type: circle;(square)}  ol {list-style-type: upper-roman; (lower-alpha)}</dd>
+                                                            </li>
+                            <li>
+                                 <dt>list-style-image: </dt>
                             </li>
+                            <dd>list-style-image: url(image)  pour mettre une image à la place des puces</dd>
                         </ul>
+                        <li>
+                            <dt>list-style-position: </dt>
+                        </li>
+                        <dd>inside(the bullet will béepart of the list)  outside(dehors de liste)</dd>
+                        <li>
+                            <dt>list-style: </dt>
+                        </li>
+                        <dd>type  position  image</dd>
                     </details>
                     <details>
                         <summary></summary>

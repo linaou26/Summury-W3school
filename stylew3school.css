@@ -73,7 +73,10 @@ header{
 	background-color: white;
 	height: max-content;
 	border: 1px solid green;
+	height: max-content;
+	padding: 30px;
 }
+div{ float: left; }
 h1{
 	text-align: center;
 	font-family: verdana;
@@ -107,18 +110,12 @@ a.nav:hover ,a.nav:active{
 a{
 	font-size: 20px;
 }
-nav{
 
-	heigh:max-content;
 
-}
-ul{
-	
-	margin: 0px;
-	padding: 0px;
-	}
-li{
+
+li.nav{
 	display: inline-block;
+
 }
 summary {
 	font-size: 18px;

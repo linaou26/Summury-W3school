@@ -67,16 +67,22 @@ caption
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	line-height: 25px;
 }
+/*page css*/
+/*entête*/
 header{
 
 	
 	background-color: white;
-	height: max-content;
 	border: 1px solid green;
 	height: max-content;
-	padding: 30px;
+	overflow: auto;
 }
-div{ float: left; }
+/*menu de navigation div*/
+div{ 
+	float: left;
+	border: 1px solid white;
+ }
+
 h1{
 	text-align: center;
 	font-family: verdana;
@@ -92,31 +98,28 @@ h1{
 	text-align: center;
 }
 a.nav:link , a.nav:visited {
-	background-color: white;
-	
 	display: inline-block;
 	text-align: center;
 	padding: 10px 20px;
-	color: green;
+	background-color: green;
+	color: white;
 	text-decoration: none;
 	
 	
 }
 a.nav:hover ,a.nav:active{
-
-	background-color: green;
-	color: white;
+background-color: rgb(231, 240, 236);
+color: black;
+	
 }
+
 a{
 	font-size: 20px;
 }
 
 
 
-li.nav{
-	display: inline-block;
 
-}
 summary {
 	font-size: 18px;
 	line-height: 30px;

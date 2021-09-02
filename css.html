@@ -12,19 +12,16 @@
         </head>
         <body>
             <header>
-                <h1 >
-                    W3S-Frontend</h1>
-                    <nav>
-                        <ul class="nav" >
-                            <li>
-                            <a href="html.html" target="_blank" class="nav"> HTML</a>
-                            </li>
-                            <li><a href="css.html" target="_blank" class="nav">CSS</a></li>
-                            <li><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></li>
-
-                        </ul>
+                <h1>W3S-Frontend</h1>
+                    <nav>                    
+                        <div class="nav"><a href="html.html" target="_blank" class="nav"> HTML</a>
+                        </div>
+                            
+                        <div class="nav"><a href="css.html" target="_blank" class="nav">CSS</a></div>
+                        <div class="nav"><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></div>
+                       
                     </nav>
-                </header>
+            </header>
                 <br>
                 <h2 class="ht" >CSS</h2><br>
                 <h3>CSS Tutorial</h3>
@@ -400,60 +397,131 @@ font-family (required)</dd>
                         <li>
                             <dt>list-style: </dt>
                         </li>
-                        <dd>type  position  image</dd>
+                        <dd>list-style: type  position  image;</dd>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Table</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>border/size/alignement</dt>
+                                <dd>border-collapse: collapse (separate);</dd>
+                                <dd>widht & height </dd>
+                                <dd>text-align & vertical-align</dd>
+                            </li>
+                            <li>
+                                <dt>Style:(hover & striped table)</dt>
+                            </li>
+                            <dd>tr:hover {backgroun-color (ou autre chose)} colorer lors d'un survol</dd>
+                            <dd>tr:ntch-child(even){background-color: ...;} </dd>
+                            <li>
+                                <dt>Responsive table: </dt>
+                            </li>
+                            <dd>Pour ajouter un scroll si l'acran est trop petite: ajouter un container comme <b><i>div</i></b> et y mettre le style ="overflow-x:auto;" </dd>
+                            <li>
+                                <dt>Set the position of the table caption: </dt>
+                            </li>
+                            <dd>caption-side: bottom;</dd>
+                            <li>
+                                <dt>border-spacing: </dt>
+                            </li>
+                            <dd>Définir un espace entre les cellules d'un tableau</dd>
+                            <li>
+                                <dt>empty-cells: </dt>
+                            </li>
+                            <dd>Définir si on met des border autour des cellules vide ou non: (hide;  show;)</dd>
+                            <li>
+                                <dt>table-layout: </dt>
+                            </li>
+                            <dd>fixed;  auto(ajuster au contenu);</dd>
+
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Display & Visibility</summary>
+                        <ul>
+                            <li>
+                                <dt>display: block /inline /none ..;</dt>
+                                <dd><b>display: none;</b> (ne laisse pas la place de l'élément caché vide)<br> tandis que <b>visibility: hidden;</b> (laisse la place vide de l'élément caché)</dd>
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Max-width</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>max-width: 500px;</dt>
+                                <dd>max-width permet aux éléments de s'adapter aux petits écrans.</dd>
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Position</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>position: </dt>
+                                <dd>static (relative(positionné par rapport à l'état static(par défaut)), fixed(on doit ajouter top right ...) ,absolute(positionné par rapport à un élément ancetre qui doit être lui même de position <i>relative</i>) ,-webkit-sticky);</dd>
+                                <dd>-webkit- est un préfixe doit précéder sticky  &nbsp;  pour raison d'adaptation pour le navigateur safari</dd>
+                            </li>
+                            <li>
+                                <dt>z-index: 1(-1);</dt>
+                            </li>
+                            <dd>sets the stack order of an element</dd>
+                            <li>
+                                <dt>clip: reg(top,right,bottom,left);</dt>
+                            </li>
+                            <dd>clips(couper) an absolutely positionned element from the top left corner</dd>
+                            <dd>The clip property does not work if "overflow:visible"</dd>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary>Overflow (Débordement)</summary>
+                        <ul>
+                            <li>
+                                <dt>overflow: |overflow-x: |overflow-y: </dt>
+                                <dd>visible (hidden ,scroll , auto);</dd>
                             </li>
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Float</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>float: right; | left; | none; </dt>
+                                <dd>Parfois on utilise float pour faire suivre les élément div comme une chaine sur une même ligne (comme la barre des liens)</dd>
                             </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>clear:none; |left |right |both |inherit; </dt>
                             </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
+                            <dd>pour définir la position de l'élément qui suit l'élément flottant:     <pre>
+.div3 {
+  float: left;
+  padding: 10px;  
+  border: 3px solid #73AD21;
+}
+
+.div4 {
+  padding: 10px;
+  border: 3px solid red;
+  clear: left;
+}</pre></dd>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>overflow: auto; &nbsp; (clearfix)</dt>
                             </li>
+                            <dd>block{overflow: auto;} &nbsp; (dans un block qui contient un element flottant débordant de ce block</dd>
+                            <li>
+                                <dt>box-sizing: </dt>
+                                <dd>When you add something that enlarges the width of each box (e.g. padding or borders), the box will break. The box-sizing property allows us to include the padding and border in the box's total width (and height), making sure that the padding stays inside of the box and that it does not break.
+
+</dd>
+                            </li>
+                            <li>
+                                <dt>equal float div:</dt>
+                                <dd>width: nombre de div diviser par cent (%);</dd>
+                            </li>
+                            <li>
+                                <dt>flexbox: </dt>
+                            </li>
+                            <dd></dd>
                         </ul>
                     </details>
                     <details>

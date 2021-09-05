@@ -71,8 +71,7 @@ caption
 /*entête*/
 header{
 
-	
-	background-color: white;
+		background-color: white;
 	border: 1px solid green;
 	height: max-content;
 	overflow: auto;
@@ -125,10 +124,18 @@ summary {
 	line-height: 30px;
 	font-weight: bold;
 	color: green;
-	font-size: 2vw;
+	
+
 }
 li{
-	line-height: 30px;
+		
+		border: 1px solid white;
+}
+.menu{
+
+	float:left;
+	display: inline-block;
+	overflow: hidden;
 }
 pre{
 	line-height: 19px;
@@ -147,7 +154,7 @@ dt{
 }
 dd{
 
-	white-space: pre-line;
+
 	line-height: 25px;
 }
 

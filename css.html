@@ -389,7 +389,7 @@ font-family (required)</dd>
                                  <dt>list-style-image: </dt>
                             </li>
                             <dd>list-style-image: url(image)  pour mettre une image à la place des puces</dd>
-                        </ul>
+                        
                         <li>
                             <dt>list-style-position: </dt>
                         </li>
@@ -398,6 +398,7 @@ font-family (required)</dd>
                             <dt>list-style: </dt>
                         </li>
                         <dd>list-style: type  position  image;</dd>
+                        </ul>
                     </details>
                     <details>
                         <summary>Table</summary>
@@ -518,37 +519,93 @@ font-family (required)</dd>
                                 <dt>equal float div:</dt>
                                 <dd>width: nombre de div diviser par cent (%);</dd>
                             </li>
+                                                    </ul>
+                    </details>
+                    <details>
+                        <summary>Inline-Block</summary>
+                        <ul>
                             <li>
-                                <dt>flexbox: </dt>
-                            </li>
-                            <dd></dd>
+                                <dt>display: inline-block;</dt></li>
+                                <dd>respecte les margin and padding ne fait pas saut de ligne</dd>
+                            
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Align</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>horizentally centrer a block:  (margin: auto;)</dt>
                             </li>
+                                <dd>Note: Center aligning has no effect if the width property is not set (or set to 100%).</dd>
+                            
+                            <li>
+                                <dt>Left & right position of a block element;</dt>
+                            </li>
+                                <dd>position: absolute;</dd>
+                                <dd>Absolute positioned elements are removed from the normal flow, and can overlap elements</dd>
+                            
+                            <li>
+                                <dt>Center vertically: </dt>
+                            </li>
+                            <dd>1)- Using padding: with two value ( the first one defined the top and bottom padding at the same time)</dd>
+                            <dd>padding +text-align :center; pour centrer horizentalement et verticalement un element.</dd>
+                            <li>
+                                <dt>Center vertically using <i>line-height</i>: </dt>
+                            </li>
+                            <dd> <pre>
+    .center {
+  line-height: 200px;
+  height: 200px;
+  border: 3px solid green;
+  text-align: center;
+}
+
+/* If the text has multiple lines, add the following: */
+   .center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+}</pre></dd>
+                            <li>
+                                <dt>Center vertically using: Flex-box</dt>
+                            </li>
+                            <dd><pre>
+
+        .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green; 
+}</pre></dd>
+                            
                         </ul>
                     </details>
                     <details>
-                        <summary></summary>
+                        <summary>Combinators</summary>
                         <ul>
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>div &nbsp; p</dt>
                             </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
+                            <dd> Selects all <b>&lt;p&gt;</b> elements inside <b>&lt;div&gt;</b> elements
+                            </dd>
+                            
                             <li>
-                                <dt></dt>
-                                <dd></dd>
+                                <dt>div &nbsp;>&nbsp; p</dt></li>
+
+                            
+                            <dd>Selects all <b>&lt;p&gt;</b> elements where the parent is a <b>&lt;div&gt;</b> element
+                            </dd>            
+                            <li>
+                                <dt>div+p</dt>
                             </li>
+                            <dd>Selects the first <b>&lt;p&gt;</b> element that are placed immediately after <b>&lt;div&gt;</b> elements
+                            </dd>
+                            <li>
+                                <dt>p ~ ul</dt>
+                            </li>
+                            <dd>Selects every <b>&lt;ul&gt;</b> element that are preceded by a <b>&lt;p&gt;</b> element
+                            </dd>
                         </ul>
                     </details>
                     <details>

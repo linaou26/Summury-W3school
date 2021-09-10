@@ -1,181 +1,183 @@
-        <!DOCTYPE html>
-        <html lang="fr"dir="ltr">
+    <!DOCTYPE html>
+    <html lang="fr"dir="ltr">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>CSS</title>
-            <link rel="stylesheet" href="stylew3school.css">
-            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon">
-            <script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"></script>
-            
-        </head>
-        <body>
-            <header>
-                <h1>W3S-Frontend</h1>
-                    <nav>                    
-                        <div class="nav"><a href="html.html" target="_blank" class="nav"> HTML</a>
-                        </div>
-                            
-                        <div class="nav"><a href="css.html" target="_blank" class="nav">CSS</a></div>
-                        <div class="nav"><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></div>
-                       
-                    </nav>
-            </header>
-                <br>
-                <h2 class="ht" >CSS</h2><br>
-                <h3>CSS Tutorial</h3>
-                <section>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <link rel="stylesheet" href="stylew3school.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon">
+        <script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <header>
+            <h1>W3S-Frontend</h1>
+            <div class ="bar-nav">
+                <nav>                    
+                    <div class="nav"><a href="html.html" target="_blank" class="nav"> HTML</a>
+                    </div>
+                        
+                    <div class="nav"><a href="css.html" target="_blank" class="nav">CSS</a></div>
+                    <div class="nav"><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></div>
+                   
+                </nav>
+            </div>
+        </header>
+            <br>
+            <h2 class="ht" >CSS</h2><br>
+            <h3>CSS Tutorial</h3>
+            <section>
 
-                    <details>
-                        <summary>Selector </summary>
-                        <ul>
-                            <li><dt>#id</dt></li>
-                            <li><dt>.class</dt></li>
-                            <li><dt>element.class</dt></li>
-                            <li><dt>*</dt></li>
-                            <li><dt>element </dt>&nbsp; p 
+                <details>
+                    <summary>Selector </summary>
+                    <ul>
+                        <li><dt>#id</dt></li>
+                        <li><dt>.class</dt></li>
+                        <li><dt>element.class</dt></li>
+                        <li><dt>*</dt></li>
+                        <li><dt>element </dt>&nbsp; p 
+                        </li>
+                        <li><dt>element,element,..</dt>  &nbsp; div ,p </li>
+                    </ul>
+
+                </details>
+                <details>
+                    <summary>How to</summary>
+                    <ul>
+                        <li><pre>External CSS
+    With an external style sheet, you can change the look of an entire website by changing just one file!
+
+    Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
+    </pre>
+     </li>
+                        <li><pre>Internal CSS
+    An internal style sheet may be used if one single HTML page has a unique style.
+
+    The internal style is defined inside the &lt;style&gt; element, inside the head section.</pre></li>
+                        <li><pre>Inline CSS
+    An inline style may be used to apply a unique style for a single element.
+
+    To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+
+    </pre></li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Comments</summary>
+                    <ul>
+                        <li><dt>/* ....... */</dt> </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Colors</summary>
+                    <ul>
+                        <li>color: &nbsp; rgb(255, 99, 71);</li>
+                            <li>color: &nbsp; #ff6347;(#rrggbb: prend les valeur 00-->ff en héxadécimal équivalent de : 0-->255 en décimal))</li>
+                            <li>color: &nbsp; hsl(9, 100%, 64%);(hue,saturation,lightness)
+
+                                <pre>
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+
+Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white</pre></li>
+                            <li>color:  &nbsp; tomato;</li>
+                            <li>color:  &nbsp; rgba(255, 99, 71, 0.5);where "a" represent the opacity
                             </li>
-                            <li><dt>element,element,..</dt>  &nbsp; div ,p </li>
-                        </ul>
+                            <li>color:  &nbsp; hsla(9, 100%, 64%, 0.5);where "a" represent the opacity</li>
 
-                    </details>
-                    <details>
-                        <summary>How to</summary>
-                        <ul>
-                            <li><pre>External CSS
-        With an external style sheet, you can change the look of an entire website by changing just one file!
-
-        Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.
-        </pre>
-         </li>
-                            <li><pre>Internal CSS
-        An internal style sheet may be used if one single HTML page has a unique style.
-
-        The internal style is defined inside the &lt;style&gt; element, inside the head section.</pre></li>
-                            <li><pre>Inline CSS
-        An inline style may be used to apply a unique style for a single element.
-
-        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
-
-        </pre></li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Comments</summary>
-                        <ul>
-                            <li><dt>/* ....... */</dt> </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Colors</summary>
-                        <ul>
-                            <li>color: &nbsp; rgb(255, 99, 71);</li>
-                                <li>color: &nbsp; #ff6347;(#rrggbb: prend les valeur 00-->ff en héxadécimal équivalent de : 0-->255 en décimal))</li>
-                                <li>color: &nbsp; hsl(9, 100%, 64%);(hue,saturation,lightness)
-
-                                    <pre>
-    Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
-
-    Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
-
-    Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white</pre></li>
-                                <li>color:  &nbsp; tomato;</li>
-                                <li>color:  &nbsp; rgba(255, 99, 71, 0.5);where "a" represent the opacity
-                                </li>
-                                <li>color:  &nbsp; hsla(9, 100%, 64%, 0.5);where "a" represent the opacity</li>
-
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Background</summary>
-                        <ul>
-                            <li><dt>background-color: </dt> lightblue;</li>
-                            <li><dt>background-image:</dt> url("paper.gif");The background image can also be  set for specific elements, like the &lt;p&gt; element:</li>
-                            <li><dt>background-repeat:</dt> no-repeat;/no-repeat;/repeat-x;/repeat-y;</li>
-                            <li><dt>background-position:</dt> right top;/left top ...</li>
-                            <li><dt>background-attachment:</dt> scroll;/fixed;(se voit tout au long de défilement de la page)</li>
-                            
+                    </ul>
+                </details>
+                <details>
+                    <summary>Background</summary>
+                    <ul>
+                        <li><dt>background-color: </dt> lightblue;</li>
+                        <li><dt>background-image:</dt> url("paper.gif");The background image can also be  set for specific elements, like the &lt;p&gt; element:</li>
+                        <li><dt>background-repeat:</dt> no-repeat;/no-repeat;/repeat-x;/repeat-y;</li>
+                        <li><dt>background-position:</dt> right top;/left top ...</li>
+                        <li><dt>background-attachment:</dt> scroll;/fixed;(se voit tout au long de défilement de la page)</li>
+                        
 
 <li><dt>background shorthand : </dt> <dd>background:&nbsp;background-color &nbsp;&nbsp; background-image&nbsp;&nbsp; background-repeat&nbsp;&nbsp; background-attachment &nbsp;&nbsp;background-position</dd> </li>
 <li><dt>opacity: </dt><dd>0,3 ;</dd></li>
 </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Border</summary>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Border</summary>
+                    
+                        <ul>
+                            <li><dt>Border-style</dt></li>
+                            <dd>Valeurs possible: dotted, dashed, solid, double, grouve, ridge, inset, outset, none, hidden</dd>
+                        <li><dt>Border-width</dt></li>
+                        <dd>Valeurs possible:thin ,medium ,thick or specific size(px ,pm ,em ,cm) </dd>
+                        <li><dt>Border-color</dt></li>
+                        <dd></dd>
+                        <li><dt>Border-sides</dt> <dd>border-left &nbsp;&nbsp;border-right...</dd>
                         
-                            <ul>
-                                <li><dt>Border-style</dt></li>
-                                <dd>Valeurs possible: dotted, dashed, solid, double, grouve, ridge, inset, outset, none, hidden</dd>
-                            <li><dt>Border-width</dt></li>
-                            <dd>Valeurs possible:thin ,medium ,thick or specific size(px ,pm ,em ,cm) </dd>
-                            <li><dt>Border-color</dt></li>
-                            <dd></dd>
-                            <li><dt>Border-sides</dt> <dd>border-left &nbsp;&nbsp;border-right...</dd>
+                        <dd>4 values = Top &nbsp; Right  &nbsp; bottom &nbsp; left </dd>
+
+                        <dd>3 values = Top &nbsp; Right & left&nbsp; bottom </dd>
+
+                        <dd>2 values = Top & bottom &nbsp; Right & left</dd>
+                        <dd>1 value = all four borders</dd>
+                        </li>
+                        <li>
+                            <dt>Border shorthand</dt>
+                            <dd>border: &nbsp;width &nbsp;&nbsp; style(required) &nbsp;&nbsp; color; 
+                            </dd>
+                            <dd>ou  border-left(right/bottom/top): width &nbsp;&nbsp; style &nbsp;&nbsp;color </dd>
+                        </li>
+                        <li>
+                            <dt>border-radius</dt>
+                            <dd>For rounded border -->Ex- border-radius: 5px;</dd>
+                        </li>
+
+                        </ul>
+
+                    
+                </details>
+                <details>
+                    <summary>Margin</summary>
+                    <ul>
+                        <li>
+                            <dt>margin /margin-top /margin-right /margin-left ...</dt>
+                            <dd>valeur possible: auto (centré horizentalement) , length , % ,inherit</dd>
+                        </li>
+                       
+                    </ul>
+                </details>
+                <details>
+                    <summary>Padding</summary>
+                    <ul>
+                        <li>
+                            <dt>padding-top / padding-bottom / padding-left / padding-right /padding</dt>
+                            <dd>Defines space inside any defined border</dd>
+                            <dd>Valeur possible: length (px,cm,pt...), % ,inherit</dd>
+                           <li> <dt>box-sizing: border-box;</dt></li>
+                            <dd>garde la largeur de l'élément malgré l'ajout de padding</dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Width/Height</summary>
+                    <ul>
+                        <li>
+                            <dt>width / height / max_width /max-height /min-width /min height</dt>
+                            <dd>Valeur posible: none /max-content /min-content /fit-content
+                            ..px em ch %</dd>
                             
-                            <dd>4 values = Top &nbsp; Right  &nbsp; bottom &nbsp; left </dd>
-
-                            <dd>3 values = Top &nbsp; Right & left&nbsp; bottom </dd>
-
-                            <dd>2 values = Top & bottom &nbsp; Right & left</dd>
-                            <dd>1 value = all four borders</dd>
-                            </li>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Box Model</summary>
+                    <ul>
+                        <li>
+                            <dt><img src="Images\box model.jpg" alt="box model" class="box-model"></dt> </li>
                             <li>
-                                <dt>Border shorthand</dt>
-                                <dd>border: &nbsp;width &nbsp;&nbsp; style(required) &nbsp;&nbsp; color; 
-                                </dd>
-                                <dd>ou  border-left(right/bottom/top): width &nbsp;&nbsp; style &nbsp;&nbsp;color </dd>
-                            </li>
-                            <li>
-                                <dt>border-radius</dt>
-                                <dd>For rounded border -->Ex- border-radius: 5px;</dd>
-                            </li>
-
-                            </ul>
-
-                        
-                    </details>
-                    <details>
-                        <summary>Margin</summary>
-                        <ul>
-                            <li>
-                                <dt>margin /margin-top /margin-right /margin-left ...</dt>
-                                <dd>valeur possible: auto (centré horizentalement) , length , % ,inherit</dd>
-                            </li>
-                           
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Padding</summary>
-                        <ul>
-                            <li>
-                                <dt>padding-top / padding-bottom / padding-left / padding-right /padding</dt>
-                                <dd>Defines space inside any defined border</dd>
-                                <dd>Valeur possible: length (px,cm,pt...), % ,inherit</dd>
-                               <li> <dt>box-sizing: border-box;</dt></li>
-                                <dd>garde la largeur de l'élément malgré l'ajout de padding</dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Width/Height</summary>
-                        <ul>
-                            <li>
-                                <dt>width / height / max_width /max-height /min-width /min height</dt>
-                                <dd>Valeur posible: none /max-content /min-content /fit-content
-                                ..px em ch %</dd>
-                                
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Box Model</summary>
-                        <ul>
-                            <li>
-                                <dt><img src="Images\box model.jpg" alt="box model" class="box-model"></dt> </li>
-                                <li>
-                                    The total width of an element should be calculated like this:
+                                The total width of an element should be calculated like this:
 
 Total element width = width + left padding + right padding + left border + right border + left margin + right margin 
 <pre>Exemple: 
@@ -184,72 +186,72 @@ Total element width = width + left padding + right padding + left border + right
 + 10px (left + right border)
 + 0px (left + right margin)
 = 350px</pre>
-                                </li>
-                           
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Outline</summary>
-                        <ul>
-                            <li>
+                            </li>
+                       
+                    </ul>
+                </details>
+                <details>
+                    <summary>Outline</summary>
+                    <ul>
+                        <li>
 
-                                <dt>outline-style: </dt>
-                                <dd>dotted ,dashed ,solid ,double ,groove ,outset ,ridge ,inset ,outset ,none ,hiden</dd>
-                                <dd>Les autres propriétés "outline" n'ont pas d'effet que lorsque outline style est définie</dd>
-                               <li> <dt>outline-width: </dt>
-                                <dd>Valeur possible: <pre>
+                            <dt>outline-style: </dt>
+                            <dd>dotted ,dashed ,solid ,double ,groove ,outset ,ridge ,inset ,outset ,none ,hiden</dd>
+                            <dd>Les autres propriétés "outline" n'ont pas d'effet que lorsque outline style est définie</dd>
+                           <li> <dt>outline-width: </dt>
+                            <dd>Valeur possible: <pre>
 thin (typically 1px)
 medium (typically 3px)
 thick (typically 5px)
 A specific size (in px, pt, cm, em, etc)</pre></dd>
 <dd>La largeur de l'outline n'affecte pas la largeur de l'élément</dd>
-                               <li> <dt>outline-color: </dt></li>
-                               <li> <dt>outline: (shorthand)</dt></li>
-                                <dd>width &nbsp;style(required)&nbsp; color ;</dd>
-                               <li> <dt>outline-offset: </dt></li>
-                                <dd>defines a space between an outline and the border/edge of an element . Ex: outline-offset: 15px;</dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Text</summary>
-                        <ul>
-                            <li>
-                                <dt>color: </dt></li>
-                                <dd>color-name "red" - HEX-value #ff00aa - RGB-value (25,23,250) ...</dd>
-                                <li><dt>text-align: </dt></li>
-                                <dd>justify  right  left  center;</dd>
-                               <li> <dt>direction & unicode-bidi: </dt></li>
-                                <dd>direction: rtl(right to left) /ltr(left to right);
-                                    </dd>
-                                
-                                <dd>unicode-bidi: bidi-override;</dd>
-                               <li> <dt>vertical-align: </dt></li>
-                                <dd>baseline(default)  text-top  text-bottom  sub  super;</dd>
-                                <li><dt>text-decoration: </dt></li>
-                                <dd>texte decoration: none(is often used to remove decoration from link)  overline  line-through  underline;</dd>
-                            <li>
-                                <dt>text-transform: </dt>
-                            </li>
-                            <dd>text-transform: uppercase  (lowercase  , capitalize);</dd>
-                            <li>
-                                <dt>Text spacing</dt>
-                            </li>
-                            <dd>text-indent  letter-spacing  line-height  word-spacing  white-space</dd>
-                           
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Fonts</summary>
-                        <ul>
-                            <li>
-                                <dt>font-family: </dt></li>
-                                <dd>font-family:"times new roman" ,times ,serif
-                            ;</dd>
-                            <dd> on nécrit le nom de police formé de +ieurs mots entre ""</dd>
-                            <dd>on doit écrire +ieurs police au déclaration</dd>
-                            <li>
-                                <dt><pre>
+                           <li> <dt>outline-color: </dt></li>
+                           <li> <dt>outline: (shorthand)</dt></li>
+                            <dd>width &nbsp;style(required)&nbsp; color ;</dd>
+                           <li> <dt>outline-offset: </dt></li>
+                            <dd>defines a space between an outline and the border/edge of an element . Ex: outline-offset: 15px;</dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Text</summary>
+                    <ul>
+                        <li>
+                            <dt>color: </dt></li>
+                            <dd>color-name "red" - HEX-value #ff00aa - RGB-value (25,23,250) ...</dd>
+                            <li><dt>text-align: </dt></li>
+                            <dd>justify  right  left  center;</dd>
+                           <li> <dt>direction & unicode-bidi: </dt></li>
+                            <dd>direction: rtl(right to left) /ltr(left to right);
+                                </dd>
+                            
+                            <dd>unicode-bidi: bidi-override;</dd>
+                           <li> <dt>vertical-align: </dt></li>
+                            <dd>baseline(default)  text-top  text-bottom  sub  super;</dd>
+                            <li><dt>text-decoration: </dt></li>
+                            <dd>texte decoration: none(is often used to remove decoration from link)  overline  line-through  underline;</dd>
+                        <li>
+                            <dt>text-transform: </dt>
+                        </li>
+                        <dd>text-transform: uppercase  (lowercase  , capitalize);</dd>
+                        <li>
+                            <dt>Text spacing</dt>
+                        </li>
+                        <dd>text-indent  letter-spacing  line-height  word-spacing  white-space</dd>
+                       
+                    </ul>
+                </details>
+                <details>
+                    <summary>Fonts</summary>
+                    <ul>
+                        <li>
+                            <dt>font-family: </dt></li>
+                            <dd>font-family:"times new roman" ,times ,serif
+                        ;</dd>
+                        <dd> on nécrit le nom de police formé de +ieurs mots entre ""</dd>
+                        <dd>on doit écrire +ieurs police au déclaration</dd>
+                        <li>
+                            <dt><pre>
 Arial (sans-serif)
 Verdana (sans-serif)
 Helvetica (sans-serif)
@@ -261,60 +263,60 @@ Garamond (serif)
 Courier New (monospace)
 Brush Script MT (cursive)</pre></dt>
 <li>
-    <dt>Font-style</dt>
+<dt>Font-style</dt>
 </li>
-                                <dd>normal  italic  oblique</dd>
-                            </li>
+                            <dd>normal  italic  oblique</dd>
+                        </li>
 <li>
-    <dt>font-weight: </dt>
-    <dd>normal bold ...</dd>
-</li>
-<li>
-    <dt>font-variant: </dt>
-    <dd>normal  small-caps</dd>
+<dt>font-weight: </dt>
+<dd>normal bold ...</dd>
 </li>
 <li>
-    <dt>font-size: </dt>
+<dt>font-variant: </dt>
+<dd>normal  small-caps</dd>
+</li>
+<li>
+<dt>font-size: </dt>
 </li>
 <dd>1em =  valeure actuelle en px. par défaut (16px=1em)</dd>
 
 <li>
-    <dt>em</dt>
+<dt>em</dt>
 </li>
 <dd>dans les anciens borowsers quand on utilise em un problème se produit lors du zoom ou de resize </dd>
 <dd>la solution est d'utiliser font-size of body à 100% puis utiliser "em" pour les autres éléments.</dd>
 <li>
-    <dt>vw</dt>
+<dt>vw</dt>
 </li>
 <dd>Viewport is the browser window size. 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</dd>
-                        
+                    
 
 <li>
-    <dt>Google font </dt>
+<dt>Google font </dt>
 </li>
 <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|sofia|trirong   (ou autre nom de fonte)"&gt; puis on la définie dans css</dd>
 <li>
-    <dt>Google effect</dt>
+<dt>Google effect</dt>
 </li>
 <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|sofia|trirong   (ou autre nom de fonte)&fire|neon|.. (on cite un ou plusieurs effet puis on le déclare: element class="font-effect-nom-effect")"&gt</dd>
 <li>
-    <dt>font pairings: </dt>
+<dt>font pairings: </dt>
 </li>
 <dd>Exemple: Georgia(or heading) and Verdana(for text)
-    Helvitica and Garamond
-    Merriweather and Open Sans
-    Ubuntu and Lora
-    Abril Fatface  and Poppins
-    Cinzel and  Fauna One
-    Fjalla One and Libre Baskerville
-    Space Mono and Muli
-    Spectral and  Rubik
-    Oswald  and Noto Sans
-    </dd>
-    <li>
-        <dt>font (shorthand)</dt>
-    </li>
-    <dd>
+Helvitica and Garamond
+Merriweather and Open Sans
+Ubuntu and Lora
+Abril Fatface  and Poppins
+Cinzel and  Fauna One
+Fjalla One and Libre Baskerville
+Space Mono and Muli
+Spectral and  Rubik
+Oswald  and Noto Sans
+</dd>
+<li>
+    <dt>font (shorthand)</dt>
+</li>
+<dd>
 font-style
 font-variant
 font-weight
@@ -322,43 +324,43 @@ font-size (required)
 line-height
 font-family (required)</dd>
 </ul>
-                    </details>
-                    <details>
-                        <summary>Icons</summary>
-                        <ul>
-                            <li>
-                                <dt><a href="https://fontawesome.com" target="_blank">fontawesome.com</a></dt>
-                                <dd>Get the code after sying in the bellow site and enter this in the head section: &lt;script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"&gt;
-                                    Exemple : mon code est -->&lt;script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"&gt;&lt;/script&gt;</dd>
+                </details>
+                <details>
+                    <summary>Icons</summary>
+                    <ul>
+                        <li>
+                            <dt><a href="https://fontawesome.com" target="_blank">fontawesome.com</a></dt>
+                            <dd>Get the code after sying in the bellow site and enter this in the head section: &lt;script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"&gt;
+                                Exemple : mon code est -->&lt;script src="https://kit.fontawesome.com/9a22d7447b.js" crossorigin="anonymous"&gt;&lt;/script&gt;</dd>
 
-                            </li>
-                            <li>
-                                <dt>Utilisation: </dt>
-                            </li>
-                            <dd>Dans un élément html on ajoute une classe comme suit: ..class="fas fa<b>-</b>icon-name"</dd>
-                            <li>
-                                <dt>Bootstrap icon: </dt>
-                            </li>
-                            <dd>On ajoute ce code dans le head section: &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;</dd>
-                            <dd>Dans l'élément HTML: ... class="glyphicon glyphicon-cloud"</dd>
-                            <li>
-                                <dt>Google Icon: </dt>
-                            </li>
-                            <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</dd>
-                            <dd>&lt; i class="material-icons"&gt;cloud&lt;/i&gt;</dd>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Links</summary>
-                        <ul>
-                            <li>
-                                <dt>Rules: </dt>
-                                <dd>Cet ordre est important:  &nbsp;( a: link{ color background text-decoration ...} et  a:visited{} ) puis quand on veut ajouter : a:hover{}  a:active{}</dd>>
-                            </li>
-                            <li>
-                                <dt>Different type of cursors(can be useful for links): </dt>
-                            </li>
-                            <dd><pre>
+                        </li>
+                        <li>
+                            <dt>Utilisation: </dt>
+                        </li>
+                        <dd>Dans un élément html on ajoute une classe comme suit: ..class="fas fa<b>-</b>icon-name"</dd>
+                        <li>
+                            <dt>Bootstrap icon: </dt>
+                        </li>
+                        <dd>On ajoute ce code dans le head section: &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;</dd>
+                        <dd>Dans l'élément HTML: ... class="glyphicon glyphicon-cloud"</dd>
+                        <li>
+                            <dt>Google Icon: </dt>
+                        </li>
+                        <dd>&lt;link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"&gt;</dd>
+                        <dd>&lt; i class="material-icons"&gt;cloud&lt;/i&gt;</dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Links</summary>
+                    <ul>
+                        <li>
+                            <dt>Rules: </dt>
+                            <dd>Cet ordre est important:  &nbsp;( a: link{ color background text-decoration ...} et  a:visited{} ) puis quand on veut ajouter : a:hover{}  a:active{}</dd>>
+                        </li>
+                        <li>
+                            <dt>Different type of cursors(can be useful for links): </dt>
+                        </li>
+                        <dd><pre>
 &lt;span style="cursor: auto">auto&lt;/span><br>
 &lt;span style="cursor: crosshair">crosshair&lt;/span><br>
 &lt;span style="cursor: default">default&lt;/span><br>
@@ -376,338 +378,555 @@ font-family (required)</dd>
 &lt;span style="cursor: text">text&lt;/span><br>
 &lt;span style="cursor: w-resize">w-resize&lt;/span><br>
 &lt;span style="cursor: wait">wait&lt;/span></pre></dd> 
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Lists</summary>
-                        <ul>
-                            <li>
-                                <dt>list-style-type: </dt>
-                                <dd>ul {list-style-type: circle;(square)}  ol {list-style-type: upper-roman; (lower-alpha)}</dd>
-                                                            </li>
-                            <li>
-                                 <dt>list-style-image: </dt>
-                            </li>
-                            <dd>list-style-image: url(image)  pour mettre une image à la place des puces</dd>
-                        
+                    </ul>
+                </details>
+                <details>
+                    <summary>Lists</summary>
+                    <ul>
                         <li>
-                            <dt>list-style-position: </dt>
-                        </li>
-                        <dd>inside(the bullet will béepart of the list)  outside(dehors de liste)</dd>
+                            <dt>list-style-type: </dt>
+                            <dd>ul {list-style-type: circle;(square)}  ol {list-style-type: upper-roman; (lower-alpha)}</dd>
+                                                        </li>
                         <li>
-                            <dt>list-style: </dt>
+                             <dt>list-style-image: </dt>
                         </li>
-                        <dd>list-style: type  position  image;</dd>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Table</summary>
-                        <ul>
-                            <li>
-                                <dt>border/size/alignement</dt>
-                                <dd>border-collapse: collapse (separate);</dd>
-                                <dd>widht & height </dd>
-                                <dd>text-align & vertical-align</dd>
-                            </li>
-                            <li>
-                                <dt>Style:(hover & striped table)</dt>
-                            </li>
-                            <dd>tr:hover {backgroun-color (ou autre chose)} colorer lors d'un survol</dd>
-                            <dd>tr:ntch-child(even){background-color: ...;} </dd>
-                            <li>
-                                <dt>Responsive table: </dt>
-                            </li>
-                            <dd>Pour ajouter un scroll si l'acran est trop petite: ajouter un container comme <b><i>div</i></b> et y mettre le style ="overflow-x:auto;" </dd>
-                            <li>
-                                <dt>Set the position of the table caption: </dt>
-                            </li>
-                            <dd>caption-side: bottom;</dd>
-                            <li>
-                                <dt>border-spacing: </dt>
-                            </li>
-                            <dd>Définir un espace entre les cellules d'un tableau</dd>
-                            <li>
-                                <dt>empty-cells: </dt>
-                            </li>
-                            <dd>Définir si on met des border autour des cellules vide ou non: (hide;  show;)</dd>
-                            <li>
-                                <dt>table-layout: </dt>
-                            </li>
-                            <dd>fixed;  auto(ajuster au contenu);</dd>
+                        <dd>list-style-image: url(image)  pour mettre une image à la place des puces</dd>
+                    
+                    <li>
+                        <dt>list-style-position: </dt>
+                    </li>
+                    <dd>inside(the bullet will béepart of the list)  outside(dehors de liste)</dd>
+                    <li>
+                        <dt>list-style: </dt>
+                    </li>
+                    <dd>list-style: type  position  image;</dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Table</summary>
+                    <ul>
+                        <li>
+                            <dt>border/size/alignement</dt>
+                            <dd>border-collapse: collapse (separate);</dd>
+                            <dd>widht & height </dd>
+                            <dd>text-align & vertical-align</dd>
+                        </li>
+                        <li>
+                            <dt>Style:(hover & striped table)</dt>
+                        </li>
+                        <dd>tr:hover {backgroun-color (ou autre chose)} colorer lors d'un survol</dd>
+                        <dd>tr:ntch-child(even){background-color: ...;} </dd>
+                        <li>
+                            <dt>Responsive table: </dt>
+                        </li>
+                        <dd>Pour ajouter un scroll si l'acran est trop petite: ajouter un container comme <b><i>div</i></b> et y mettre le style ="overflow-x:auto;" </dd>
+                        <li>
+                            <dt>Set the position of the table caption: </dt>
+                        </li>
+                        <dd>caption-side: bottom;</dd>
+                        <li>
+                            <dt>border-spacing: </dt>
+                        </li>
+                        <dd>Définir un espace entre les cellules d'un tableau</dd>
+                        <li>
+                            <dt>empty-cells: </dt>
+                        </li>
+                        <dd>Définir si on met des border autour des cellules vide ou non: (hide;  show;)</dd>
+                        <li>
+                            <dt>table-layout: </dt>
+                        </li>
+                        <dd>fixed;  auto(ajuster au contenu);</dd>
 
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Display & Visibility</summary>
-                        <ul>
-                            <li>
-                                <dt>display: block /inline /none ..;</dt>
-                                <dd><b>display: none;</b> (ne laisse pas la place de l'élément caché vide)<br> tandis que <b>visibility: hidden;</b> (laisse la place vide de l'élément caché)</dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Max-width</summary>
-                        <ul>
-                            <li>
-                                <dt>max-width: 500px;</dt>
-                                <dd>max-width permet aux éléments de s'adapter aux petits écrans.</dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Position</summary>
-                        <ul>
-                            <li>
-                                <dt>position: </dt>
-                                <dd>static (relative(positionné par rapport à l'état static(par défaut)), fixed(on doit ajouter top right ...) ,absolute(positionné par rapport à un élément ancetre qui doit être lui même de position <i>relative</i>) ,-webkit-sticky);</dd>
-                                <dd>-webkit- est un préfixe doit précéder sticky  &nbsp;  pour raison d'adaptation pour le navigateur safari</dd>
-                            </li>
-                            <li>
-                                <dt>z-index: 1(-1);</dt>
-                            </li>
-                            <dd>sets the stack order of an element</dd>
-                            <li>
-                                <dt>clip: reg(top,right,bottom,left);</dt>
-                            </li>
-                            <dd>clips(couper) an absolutely positionned element from the top left corner</dd>
-                            <dd>The clip property does not work if "overflow:visible"</dd>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Overflow (Débordement)</summary>
-                        <ul>
-                            <li>
-                                <dt>overflow: |overflow-x: |overflow-y: </dt>
-                                <dd>visible (hidden ,scroll , auto);</dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Float</summary>
-                        <ul>
-                            <li>
-                                <dt>float: right; | left; | none; </dt>
-                                <dd>Parfois on utilise float pour faire suivre les élément div comme une chaine sur une même ligne (comme la barre des liens)</dd>
-                            </li>
-                            <li>
-                                <dt>clear:none; |left |right |both |inherit; </dt>
-                            </li>
-                            <dd>pour définir la position de l'élément qui suit l'élément flottant:     <pre>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Display & Visibility</summary>
+                    <ul>
+                        <li>
+                            <dt>display: block /inline /none ..;</dt>
+                            <dd><b>display: none;</b> (ne laisse pas la place de l'élément caché vide)<br> tandis que <b>visibility: hidden;</b> (laisse la place vide de l'élément caché)</dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Max-width</summary>
+                    <ul>
+                        <li>
+                            <dt>max-width: 500px;</dt>
+                            <dd>max-width permet aux éléments de s'adapter aux petits écrans.</dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Position</summary>
+                    <ul>
+                        <li>
+                            <dt>position: </dt>
+                            <dd>static (relative(positionné par rapport à l'état static(par défaut)), fixed(on doit ajouter top right ...) ,absolute(positionné par rapport à un élément ancetre qui doit être lui même de position <i>relative</i>) ,-webkit-sticky);</dd>
+                            <dd>-webkit- est un préfixe doit précéder sticky  &nbsp;  pour raison d'adaptation pour le navigateur safari</dd>
+                        </li>
+                        <li>
+                            <dt>z-index: 1(-1);</dt>
+                        </li>
+                        <dd>sets the stack order of an element</dd>
+                        <li>
+                            <dt>clip: reg(top,right,bottom,left);</dt>
+                        </li>
+                        <dd>clips(couper) an absolutely positionned element from the top left corner</dd>
+                        <dd>The clip property does not work if "overflow:visible"</dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Overflow (Débordement)</summary>
+                    <ul>
+                        <li>
+                            <dt>overflow: |overflow-x: |overflow-y: </dt>
+                            <dd>visible (hidden ,scroll , auto);</dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Float</summary>
+                    <ul>
+                        <li>
+                            <dt>float: right; | left; | none; </dt>
+                            <dd>Parfois on utilise float pour faire suivre les élément div comme une chaine sur une même ligne (comme la barre des liens)</dd>
+                        </li>
+                        <li>
+                            <dt>clear:none; |left |right |both |inherit; </dt>
+                        </li>
+                        <dd>pour définir la position de l'élément qui suit l'élément flottant:     <pre>
 .div3 {
-  float: left;
-  padding: 10px;  
-  border: 3px solid #73AD21;
+float: left;
+padding: 10px;  
+border: 3px solid #73AD21;
 }
 
 .div4 {
-  padding: 10px;
-  border: 3px solid red;
-  clear: left;
+padding: 10px;
+border: 3px solid red;
+clear: left;
 }</pre></dd>
-                            <li>
-                                <dt>overflow: auto; &nbsp; (clearfix)</dt>
-                            </li>
-                            <dd>block{overflow: auto;} &nbsp; (dans un block qui contient un element flottant débordant de ce block</dd>
-                            <li>
-                                <dt>box-sizing: </dt>
-                                <dd>When you add something that enlarges the width of each box (e.g. padding or borders), the box will break. The box-sizing property allows us to include the padding and border in the box's total width (and height), making sure that the padding stays inside of the box and that it does not break.
+                        <li>
+                            <dt>overflow: auto; &nbsp; (clearfix)</dt>
+                        </li>
+                        <dd>block{overflow: auto;} &nbsp; (dans un block qui contient un element flottant débordant de ce block</dd>
+                        <li>
+                            <dt>box-sizing: </dt>
+                            <dd>When you add something that enlarges the width of each box (e.g. padding or borders), the box will break. The box-sizing property allows us to include the padding and border in the box's total width (and height), making sure that the padding stays inside of the box and that it does not break.
 
 </dd>
-                            </li>
-                            <li>
-                                <dt>equal float div:</dt>
-                                <dd>width: nombre de div diviser par cent (%);</dd>
-                            </li>
-                                                    </ul>
-                    </details>
-                    <details>
-                        <summary>Inline-Block</summary>
-                        <ul>
-                            <li>
-                                <dt>display: inline-block;</dt></li>
-                                <dd>respecte les margin and padding ne fait pas saut de ligne</dd>
-                            
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Align</summary>
-                        <ul>
-                            <li>
-                                <dt>horizentally centrer a block:  (margin: auto;)</dt>
-                            </li>
-                                <dd>Note: Center aligning has no effect if the width property is not set (or set to 100%).</dd>
-                            
-                            <li>
-                                <dt>Left & right position of a block element;</dt>
-                            </li>
-                                <dd>position: absolute;</dd>
-                                <dd>Absolute positioned elements are removed from the normal flow, and can overlap elements</dd>
-                            
-                            <li>
-                                <dt>Center vertically: </dt>
-                            </li>
-                            <dd>1)- Using padding: with two value ( the first one defined the top and bottom padding at the same time)</dd>
-                            <dd>padding +text-align :center; pour centrer horizentalement et verticalement un element.</dd>
-                            <li>
-                                <dt>Center vertically using <i>line-height</i>: </dt>
-                            </li>
-                            <dd> <pre>
-    .center {
-  line-height: 200px;
-  height: 200px;
-  border: 3px solid green;
-  text-align: center;
+                        </li>
+                        <li>
+                            <dt>equal float div:</dt>
+                            <dd>width: nombre de div diviser par cent (%);</dd>
+                        </li>
+                                                </ul>
+                </details>
+                <details>
+                    <summary>Inline-Block</summary>
+                    <ul>
+                        <li>
+                            <dt>display: inline-block;</dt></li>
+                            <dd>respecte les margin and padding ne fait pas saut de ligne</dd>
+                        
+                    </ul>
+                </details>
+                <details>
+                    <summary>Align</summary>
+                    <ul>
+                        <li>
+                            <dt>horizentally centrer a block:  (margin: auto;)</dt>
+                        </li>
+                            <dd>Note: Center aligning has no effect if the width property is not set (or set to 100%).</dd>
+                        
+                        <li>
+                            <dt>Left & right position of a block element;</dt>
+                        </li>
+                            <dd>position: absolute;</dd>
+                            <dd>Absolute positioned elements are removed from the normal flow, and can overlap elements</dd>
+                        
+                        <li>
+                            <dt>Center vertically: </dt>
+                        </li>
+                        <dd>1)- Using padding: with two value ( the first one defined the top and bottom padding at the same time)</dd>
+                        <dd>padding +text-align :center; pour centrer horizentalement et verticalement un element.</dd>
+                        <li>
+                            <dt>Center vertically using <i>line-height</i>: </dt>
+                        </li>
+                        <dd> <pre>
+.center {
+line-height: 200px;
+height: 200px;
+border: 3px solid green;
+text-align: center;
 }
 
 /* If the text has multiple lines, add the following: */
-   .center p {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
+.center p {
+line-height: 1.5;
+display: inline-block;
+vertical-align: middle;
 }</pre></dd>
+                        <li>
+                            <dt>Center vertically using: Flex-box</dt>
+                        </li>
+                        <dd><pre>
+
+    .center {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+border: 3px solid green; 
+}</pre></dd>
+                        
+                    </ul>
+                </details>
+                <details>
+                    <summary>Combinators</summary>
+                    <ul>
+                        <li>
+                            <dt>div &nbsp; p</dt>
+                        </li>
+                        <dd> Selects all <b>&lt;p&gt;</b> elements inside <b>&lt;div&gt;</b> elements
+                        </dd>
+                        
+                        <li>
+                            <dt>div &nbsp;>&nbsp; p</dt></li>
+
+                        
+                        <dd>Selects all <b>&lt;p&gt;</b> elements where the parent is a <b>&lt;div&gt;</b> element
+                        </dd>            
+                        <li>
+                            <dt>div+p</dt>
+                        </li>
+                        <dd>Selects the first <b>&lt;p&gt;</b> element that are placed immediately after <b>&lt;div&gt;</b> elements
+                        </dd>
+                        <li>
+                            <dt>p ~ ul</dt>
+                        </li>
+                        <dd>Selects every <b>&lt;ul&gt;</b> element that are preceded by a <b>&lt;p&gt;</b> element
+                        </dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>CSS Pseudo-classes</summary>
+                    <ul>
+                        <li>
+                            <dt>Use of: focus</dt>
+                            <dd>
+                            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<b>input:focus {
+background-color: yellow;
+}</b>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;form action="/action_page.php" method="get"&gt;
+First name: &lt;input type="text" name="fname"&gt;&lt;br&gt;
+Last name: &lt;input type="text" name="lname"&gt;&lt;br&gt;
+&lt;input type="submit" value="Submit"&gt;
+&lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+                            </pre></dd>
+                        </li>
+                        <li>
+                            <dt>first-child: </dt>
+                            <dd>
+                                <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<b>p:first-child {
+color: blue;
+} </b>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+<b>&lt;p&gt;This is some text.&lt;/p&gt;</b>
+&lt;p&gt;This is some text.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+                                </pre>
+                                match the first P element
+                            </dd>
+                        </li>
+                        <li>
+                            <dt>: first-child --> match the first i element in all p element </dt>
+                        </li>
+                        <dd><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<b>p i:first-child {
+color: blue;
+} </b>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p&gt;I am a &lt;i&gt;strong&lt;/i&gt; person. I am a &lt;i&gt;strong&lt;/i&gt; person.&lt;/p&gt;
+&lt;p&gt;I am a &lt;i&gt;strong&lt;/i&gt; person. I am a &lt;i&gt;strong&lt;/i&gt; person.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></dd>
+                        <li>
+                            <dt>:first-child --> match all i element in all first p in element</dt>
+                        </li>
+                        <dd><pre>
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;style>
+<b>p:first-child i {
+color: blue;
+} </b>
+&lt;/style>
+&lt;/head>
+&lt;body>
+&lt;section>
+&lt;p>I am a &lt;i>strong&lt;/i> person. I am a &lt;i>strong&lt;/i> person.&lt;/p>
+&lt;/section>
+&lt;section>
+&lt;p>I am a &lt;i>strong&lt;/i> person. I am a &lt;i>strong&lt;/i> person.&lt;/p>&lt;/section>
+
+&lt;/body>
+&lt;/html&gt;
+</pre></dd>
+                        <li>
+                            <dt>Use of : lang</dt>
+                        </li>
+                        <dd><pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<b>q:lang(no) {
+quotes: "*" "*";
+}</b>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p&gt;Some text &nbsp;<b>&lt;q lang="no"&gt;A quote in a paragraph&lt;/q&gt;</b> &nbsp;Some text.&lt;/p&gt;
+&lt;p&gt;In this example, :lang defines the quotation marks for q elements with lang="no":&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<b>Résultat:</b>
+<pre>
+Some text  *A quote in a paragraph*  Some text.
+
+In this example, :lang defines the quotation marks for q elements with lang="no":</pre>
+</dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Pseudo-elements</summary>
+                    <ul>
+                        <li>
+                            <dt>::first-letter</dt>
+                            <dd><pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<mark><b>p::first-letter {
+color: #ff0000;
+font-size: xx-large;
+}</b></mark>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p&gt;You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></dd>
+
+                        </li>
+                          <li>
+                            <dt>::first-line</dt></li>
+                            <dd>
+                                <pre>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<mark><b>p::first-line {
+color: #ff0000;
+font-variant: small-caps;
+}</b></mark>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p&gt;You can use the ::first-line pseudo-element to add a special effect to the first line of a text. &lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+                            </dd>
+                            <dd>You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</dd>
                             <li>
-                                <dt>Center vertically using: Flex-box</dt>
+                                <dt>::before</dt>
                             </li>
                             <dd><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+<mark>h1::before {
+content: url(smiley.gif);
+}</mark>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-        .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  border: 3px solid green; 
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+&lt;p&gt;The ::before pseudo-element inserts content before the content of an element.&lt;/p&gt;
+
+&lt;h1&gt;This is a heading&lt;/h1&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></dd>
+                            <li>
+                                <dt>::after</dt>
+                            </li>
+                            <dd><mark><pre>
+h1::after {
+content: url(smiley.gif);
+}</mark></pre></dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary>Opacity</summary>
+                    <ul>
+                        <li>
+                            <dt>opacity: </dt>
+                            <dd><pre>
+span,h1,img {
+opacity: 0.2;
 }</pre></dd>
-                            
-                        </ul>
-                    </details>
-                    <details>
-                        <summary>Combinators</summary>
-                        <ul>
-                            <li>
-                                <dt>div &nbsp; p</dt>
-                            </li>
-                            <dd> Selects all <b>&lt;p&gt;</b> elements inside <b>&lt;div&gt;</b> elements
-                            </dd>
-                            
-                            <li>
-                                <dt>div &nbsp;>&nbsp; p</dt></li>
+<dd>Exemple 2: 
+<pre>
+img:hover {
+opacity: 1.0;
+}
+</pre></dd>
+                        </li>
+                        <li>
+                            <dt>opacity (child element)</dt>
+                            <dd><pre>
+div {
+  background-color: #4CAF50;
+  padding: 10px;
+}
 
-                            
-                            <dd>Selects all <b>&lt;p&gt;</b> elements where the parent is a <b>&lt;div&gt;</b> element
-                            </dd>            
-                            <li>
-                                <dt>div+p</dt>
-                            </li>
-                            <dd>Selects the first <b>&lt;p&gt;</b> element that are placed immediately after <b>&lt;div&gt;</b> elements
-                            </dd>
-                            <li>
-                                <dt>p ~ ul</dt>
-                            </li>
-                            <dd>Selects every <b>&lt;ul&gt;</b> element that are preceded by a <b>&lt;p&gt;</b> element
-                            </dd>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
-                    <details>
-                        <summary></summary>
-                        <ul>
-                            <li>
-                                <dt></dt>
-                                <dd></dd>
-                            </li>
-                        </ul>
-                    </details>
+div.first {
+  opacity: 0.1;
+}
 
-                </section>
-            </body>
-            </html>
+div.second {
+  opacity: 0.3;
+}
+
+div.third {
+  opacity: 0.6;
+}</pre>
+<br> <img src="Images\opacity.jpg" alt="Résultat du code"></dd>
+                        </li>
+                        <dd>même le paragraphe qui est inclu dans le div devient transparent par contre l'opacity avec rgba donne ce résultat: <br> <img src="Images\opacity rgba.jpg" alt="opacity rgba"> </dd>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+                <details>
+                    <summary></summary>
+                    <ul>
+                        <li>
+                            <dt></dt>
+                            <dd></dd>
+                        </li>
+                    </ul>
+                </details>
+
+            </section>
+        </body>
+        </html>

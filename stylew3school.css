@@ -75,11 +75,20 @@ header{
 	border: 1px solid green;
 	height: max-content;
 	overflow: auto;
+
 }
 /*menu de navigation div*/
-div{ 
+.nav{ 
 	float: left;
 	border: 1px solid white;
+	
+ }
+ .bar-nav{
+align-items: centedisplay: flex;
+display: flex;
+
+	justify-content: space-around;
+
  }
 
 h1{

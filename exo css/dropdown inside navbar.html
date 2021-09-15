@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Drop-In-Nav-Bar</title>
+</head>
+<style type="text/css">
+
+	ul{
+		list-style-type: none;
+		background-color: black;
+		margin:0px;
+		padding: 0px;
+		overflow: hidden;
+	}
+	li{ 
+		float: left;
+	 }
+	   a:link {
+	 	text-decoration: none;
+	 	color: white;
+	 	display: block; 
+	 }
+	 li a{
+	 	padding: 12px 16px;
+	 	
+	 }
+	 a:visited{
+	 	color: white;
+	 }
+	 a:hover{
+	 	background-color: tomato;
+	 }
+	 .dropdown{
+	 	display: inline-block;
+	 	/* position: relative; */
+	 }
+	 .dropdown-content{
+	 	position: absolute;
+	 	display: none;
+	 	z-index: 1;
+	 	border: 1px solid lightgray;
+	 	margin-left: 2px;
+	 	width: 120px;	
+	 	padding: 10px;
+	 }
+	 .dropdown-content:hover{
+	 	background-color: lightgray
+	 }
+	 .dropdown:hover .dropdown-content{
+	 	display: block;
+	 }
+</style>
+<body>
+	<ul>
+		<li><a href="#Home" class="lien">Home</a></li>
+		<li><a href="#News" class="lien">News</a></li>
+		
+			<li class="dropdown"><a href="#drop-link">Dropdown</a>
+			<div class="dropdown-content">Link</div>
+				</li>
+			
+		
+		
+	</ul>
+</body>
+</html>

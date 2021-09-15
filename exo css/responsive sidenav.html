@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Responsive Side-nav</title>
+	<style type="text/css">
+
+		body{
+			margin: 0px;
+		}
+		ul{
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+			background-color: lightgray;
+			height: 100%;
+			width: 25%;
+			position: fixed;
+			overflow: auto;
+
+		}
+		a{
+			display: block;
+			text-decoration: none;
+			color: black;
+			padding:10px 16px;
+		}
+		a.Home{
+			background-color: green;
+			color: white;
+		}
+		a:hover:not(.Home){
+			background-color: darkblue;
+			color: white;
+		}
+		.contenu{
+		padding-top: 0px;
+			margin-left: 25%;
+			padding-left: 15px; 
+		}
+		@media screen and (max-width: 900px) {
+			li{
+				float: left;
+				
+			}
+			ul{
+				height: auto;
+				width: 100%;
+			}
+			.contenu{
+				margin-top: 30px;
+				margin-left: 0px;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li><a href="#Home" class="Home">Home</a></li>
+		<li><a href="#News">News</a></li>
+		<li><a href="#Contact">Contact</a></li>
+		<li><a href="#About">About</a></li>
+	</ul>
+	<div class="contenu">
+<h1>Responsive side nav</h1>
+<p>use media queries to transform the <br>to a top navigation bar when the screen size is 900px or less.
+
+We have also added a media query for screens <br>that are 400px or less, which will vertically stack and center the navigation links.
+
+You will learn more about media queries and <br>responsive web design later in our CSS Tutorial.
+
+Resize the browser window to see the effect.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dropdown-Menu</title>
+	<style type="text/css">
+
+		
+.dropdown-content{
+	position: absolute;
+	background-color: lightgray;
+	width: 160px;
+	display: none;
+	z-index: 1;
+
+}
+.dropdown {
+	width: 160px;
+		
+}
+a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			padding: 8px 12px;
+		}
+
+div a.menu , a.menu2:link{
+	display: block;
+			padding: 15px;
+			background-color: lightgreen;
+			position: relative;
+			text-decoration: none;
+			
+			text-align: center;
+}
+ a.menu   :visited{
+	background-color: green;
+	color: white;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.left{
+	position: absolute;
+	left: 10px;
+}
+.right{
+	position: absolute;
+	right: 10px;
+}
+section{
+	position: fixed;
+	margin-top: 45px;
+}
+
+
+	</style>
+</head>
+<body>
+	<h1>Dropdown-Menu</h1>
+	<div class="left">
+	<div class="dropdown">
+	<a href="#Menu" class="menu">Menu 1</a>
+	<div class="dropdown-content">
+		<a href="#Link">Link</a>
+		<a href="#Link">Link</a>
+		<a href="#Link">Link</a>
+		
+	</div>
+	</div>
+	</div>
+<div class="right">
+	<div class="dropdown">
+	<a href="#Menu" class="menu2">Menu 2</a>
+	<div class="dropdown-content">
+		<a href="#Link">Link</a>
+		<a href="#Link">Link</a>
+		<a href="#Link">Link</a>
+		
+	</div>
+	</div>
+	</div>
+	<br>
+	<section>
+		<p>Some paragraph</p>	
+	</section>
+	
+</body>
+</html>

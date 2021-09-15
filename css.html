@@ -14,12 +14,20 @@
         <header>
             <h1>W3S-Frontend</h1>
             <div class ="bar-nav">
-                <nav>                    
-                    <div class="nav"><a href="html.html" target="_blank" class="nav"> HTML</a>
+                <nav>    
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="html.html" target="_blank">HTML</a>
+                        <a href="css.html" target="_blank">CSS</a>
+                        <a href="js.html" target="_blank">JAVASCRIPT</a>
+                    </div>
+                </div>                
+                   <!-- <div class="nav"><a href="html.html" target="_blank" class="nav"> HTML</a>
                     </div>
                         
                     <div class="nav"><a href="css.html" target="_blank" class="nav">CSS</a></div>
-                    <div class="nav"><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></div>
+                    <div class="nav"><a href="js.html" target="_blank" class="nav">JAVASCRIPT</a></div>-->
                    
                 </nav>
             </div>
@@ -855,20 +863,117 @@ div.third {
                     </ul>
                 </details>
                 <details>
-                    <summary></summary>
+                    <summary>Navigation bar</summary>
                     <ul>
                         <li>
-                            <dt></dt>
-                            <dd></dd>
+                            <dt>Responsive-Nav-Bar</dt>
                         </li>
+                            <dd>@media screen and (maw-width: ..px){
+                                <pre>--ici on écrit les modification</pre>
+                            }</dd>
+                        <li>
+                          
                     </ul>
                 </details>
                 <details>
-                    <summary></summary>
+                    <summary>DropDowns</summary>
                     <ul>
                         <li>
-                            <dt></dt>
-                            <dd></dd>
+                            <dt>dropdown  et dropdown-content sont des classes css prédéfinis  </dt>
+                            <dd><pre>
+
+<b>.dropdown {
+  position: relative;
+  
+}</b>
+
+.dropdown-content {
+  <b>display: none;</b>
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+<b>.dropdown:hover .dropdown-content {
+  display: block;
+}</b>
+
+&lt;div class="dropdown"&gt;
+  &lt;span&gt;Mouse over me&lt;/span&gt;
+  &lt;div class="dropdown-content"&gt;
+  &lt;p&gt;Hello World!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+                            </pre></dd>
+                        </li>
+                        <li>
+                            <dt>Alignement(right &left) Dropdown</dt>
+                            <dd><pre>
+                                &lt;style&gt;
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+&lt;/style&gt;
+                                
+&lt;div class="dropdown" style="float:left;"&gt;
+  &lt;button class="dropbtn"&gt;Left&lt;/button&gt;
+  &lt;div class="dropdown-content" style="left:0;"&gt;
+  &lt;a href="#"&gt;Link 1&lt;/a&gt;
+  &lt;a href="#"&gt;Link 2&lt;/a&gt;
+  &lt;a href="#"&gt;Link 3&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="dropdown" style="float:right;"&gt;
+  &lt;button class="dropbtn"&gt;Right&lt;/button&gt;
+  &lt;div class="dropdown-content"&gt;
+  &lt;a href="#"&gt;Link 1&lt;/a&gt;
+  &lt;a href="#"&gt;Link 2&lt;/a&gt;
+  &lt;a href="#"&gt;Link 3&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+                            </pre></dd>
                         </li>
                     </ul>
                 </details>

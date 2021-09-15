@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dropdown-Image</title>
+	<style type="text/css">
+		.dropdown{
+			display: inline-block;
+		position: relative;
+cursor: pointer;
+
+		}
+		div.dropdown img.mini{
+			width: 100px;
+			
+
+		}
+		div.dropdown-content img.max{
+			width: 400px;
+
+		}
+		.dropdown-content{
+			display: none;
+			position: absolute;
+			caption-side: bottom;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			margin-left: 10px;
+			z-index: 1;
+
+			
+		}
+		.dropdown:hover .dropdown-content{
+			display: block;
+		}
+		.desc{
+			text-align: center;
+			padding: 15px 10px;
+
+		}
+		.dropbtn{
+			padding: 16px;
+			margin: 10px;
+			background-color: lightgreen;
+			color: white;
+			font-size: 18px;
+			cursor: pointer;
+		}
+		div.dropdown-content a{
+			text-decoration: none;
+			color: black;
+			font-size: 15px;
+			display: block;
+			padding: 20px;
+			max-width: 300px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dropdown">
+	<img src="Image\Tulips.jpg" alt="Tulipe" class="mini">
+	<div class="dropdown-content">
+		<img src="Image\Tulips.jpg" alt="Tulipe" class="max" >
+	<div class="desc"> Tulipes </div>
+	</div>
+	</div>
+	<br>	
+
+	<div class="dropdown" style="float: left;">
+		<button class="dropbtn">Left</button>
+		<div class="dropdown-content">
+			<a href="#Link" >Link</a>
+			
+		</div>
+	</div>
+	<div class="dropdown" style="float: right;">
+		<button class="dropbtn" >right</button>
+		<div class="dropdown-content">
+			<a href="#Link" >Link</a>
+			
+		</div>
+	</div>
+</body>
+</html>
